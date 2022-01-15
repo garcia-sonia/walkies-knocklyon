@@ -23,13 +23,14 @@ h1, h2 {
 
 #logo {
     float: left;
-    size: 280%;
+    font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 4px;
 }
 
@@ -57,7 +58,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover tex */
+/* index.html: hero image and cover text */
 
 #hero-outer{
     height: 600px;
@@ -98,18 +99,16 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 110%;
+    font-size: 120%;
     font-family: Oswald, sans-serif;
     text-transform: none;
     text-align: center;
     letter-spacing: 4px;
 
-
-    width: 400px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
 
     padding: 20px;
-
 
     background-color: rgba(255, 165, 0, .7);
 
@@ -117,5 +116,61 @@ h1, h2 {
     right: 30px;
 
     position: absolute;
+}
 
+/* index.html: about us section */
+
+.about {
+	height: 650px;
+	position: relative;
+	width: 100%;
+}
+
+.about-contents {
+	position: absolute;
+	width: 75%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#about-text {
+	width: 500px;
+	height: 500px;
+	float: left;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+    text-align: justify;
+	}
+
+
+#about-text ul h2 {
+    width: 60%;
+    float: right;
+}
+
+#about-text h2 {
+    font-size: 280%;
+}
+
+#about-text ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+
+#about-image {
+    float: right;
+    margin: 0 auto;
+}
+
+#about-walkers {
+    height: 350px;
+	width: 350px;
+	border-radius: 50%; 
 }

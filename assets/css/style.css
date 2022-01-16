@@ -177,21 +177,34 @@ h1, h2 {
 
 #benefits {
     height: 650px;
+    background-color: #a1c9c9;
 }
 
 #left-benefits {
-    padding-top: 30px;
     width: 70%;
     float: left;
 }
 
 #right-benefits {
-    padding-top: 30px;
     width: 30%;
     float: right;
     background-color: #a1c9c9;
+    margin-top: 20px;
 }
 
+#right-benefits-text {
+    height: 650px;
+    float: left;
+    font-size: 120%;
+    }
+
+#right-benefits-text h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+#left-benefits-photo {
+    height: 650px;
+}
 
 /* media queries */
 

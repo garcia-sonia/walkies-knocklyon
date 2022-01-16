@@ -173,8 +173,24 @@ h1, h2 {
     
 }
 
+/* index.html: benefits section */
 
+#benefits {
+    height: 650px;
+}
 
+#left-benefits {
+    padding-top: 30px;
+    width: 70%;
+    float: left;
+}
+
+#right-benefits {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+    background-color: #a1c9c9;
+}
 
 
 /* media queries */

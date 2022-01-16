@@ -122,55 +122,66 @@ h1, h2 {
 
 .about {
 	height: 650px;
-	position: relative;
-	width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .about-contents {
-	position: absolute;
-	width: 75%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
-#about-text {
-	width: 500px;
-	height: 500px;
-	float: left;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	flex-wrap: wrap;
+.about-text {
+
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: justify;
+    padding-right: 50px;
 	}
 
-
-#about-text ul h2 {
-    width: 60%;
+.about-image {
     float: right;
 }
 
-#about-text h2 {
+.about-text h2 {
     font-size: 280%;
+    margin-bottom: 20px;
 }
 
-#about-text ul li {
+.about-text ul li {
     list-style-type: none;
     margin-bottom: 20px;
     font-size: 120%;
 }
 
-#about-image {
-    float: right;
-    margin: 0 auto;
-}
 
-#about-walkers {
+
+.about-photo {
     height: 350px;
 	width: 350px;
 	border-radius: 50%; 
+    
 }
+
+
+
+
+
+/* media queries */
+
+/* for media screens 1500px wide and up */
+
+/* for media screens 1245px wide and down */
+
+/* for media screens 1100px wide and down */
+

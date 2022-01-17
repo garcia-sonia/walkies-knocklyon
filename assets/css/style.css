@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Oswald:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -154,7 +154,7 @@ h1, h2 {
 }
 
 .about-text h2 {
-    font-size: 280%;
+    font-size: 230%;
     margin-bottom: 20px;
 }
 
@@ -193,17 +193,47 @@ h1, h2 {
 }
 
 #right-benefits-text {
-    height: 650px;
+    height: 630px;
     float: left;
     font-size: 120%;
     }
 
 #right-benefits-text h2 {
-    font-size: 280%;
+    font-size: 230%;
     margin-bottom: 20px;
 }
 #left-benefits-photo {
     height: 650px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 230%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+footer hr {
+    color: #3a3a3a;
+    border: 1px solid;
+}
+footer p {
+    text-align: center;
+    margin: 1%;
 }
 
 /* media queries */
@@ -213,4 +243,3 @@ h1, h2 {
 /* for media screens 1245px wide and down */
 
 /* for media screens 1100px wide and down */
-

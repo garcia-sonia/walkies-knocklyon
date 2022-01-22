@@ -151,6 +151,15 @@ h1, h2 {
     font-size: 120%;
 }
 
+#left-about ul li a {
+        text-decoration: none;
+        color: inherit;
+}
+
+#left-about ul li a:hover {
+        border-bottom: 1px solid #3a3a3a; 
+}
+
 #right-about {
     padding-top: 30px;
     width: 35%;
@@ -180,20 +189,27 @@ h1, h2 {
 
 #right-benefits {
     width: 30%;
-    float: right;
     background-color: #a1c9c9;
     margin-top: 20px;
+    float: right;
 }
 
 #right-benefits-text {
-    float: left;
-    font-size: 120%;
-    }
+    margin-right: 50px;
+    text-align: justify;
+}
 
 #right-benefits-text h2 {
     font-size: 230%;
     margin-bottom: 20px;
 }
+
+#right-benefits-text ul li {
+    margin-bottom: 25px;
+    list-style: none;
+    font-size: 120%;
+}
+
 #left-benefits-photo {
     height: 650px;
 }
@@ -280,9 +296,49 @@ footer p {
 /* for larger to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
     
+    #about-us {
+        width: 65%;
+        height: 1300px;
+        margin: 0 auto;
+    }
+
+    #about-header {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #right-about {
+        clear: both;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+}
+    
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #about-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
     #photos {
         column-count: 3;
     }

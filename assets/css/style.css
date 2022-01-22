@@ -65,6 +65,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    clear: both;
 }
 
 #cover-text, #cover-text h2{
@@ -119,57 +120,49 @@ h1, h2 {
 
 /* index.html: about us section */
 
-.about {
-	height: 650px;
-    position: relative;
-    width: 100%;
-}
-
-.about-contents {
-    position: absolute;
-    width: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.about-text {
-
-    float: left;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: justify;
-    padding-right: 50px;
-	}
-
-.about-image {
-    float: right;
-}
-
-.about-text h2 {
+#about-header {
+    text-align: center;
     font-size: 230%;
-    margin-bottom: 20px;
 }
 
-.about-text ul li {
-    list-style-type: none;
-    margin-bottom: 20px;
+#about-us {
+    height: 650px;
+    margin-top: 20px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 65%;
+    float: left;
+}
+
+#left-about ul { 
+    list-style: none;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#left-about ul li {
+    margin-bottom: 25px;
     font-size: 120%;
 }
 
+#right-about {
+    padding-top: 30px;
+    width: 35%;
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+}
 
-
-.about-photo {
-    height: 350px;
-	width: 350px;
-	border-radius: 50%; 
-    
+#right-about img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
 }
 
 /* index.html: benefits section */
@@ -243,7 +236,6 @@ footer p {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    height: auto;
 }
 
 #photos > img {
@@ -282,10 +274,18 @@ footer p {
     width: 100%;
 }
 
+
 /* media queries */
 
-/* for media screens 1500px wide and up */
+/* for larger to medium screens size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #photos {
+        column-count: 3;
+    }
 
-/* for media screens 1245px wide and down */
+}
 
-/* for media screens 1100px wide and down */

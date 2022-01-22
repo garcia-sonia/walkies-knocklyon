@@ -194,7 +194,6 @@ h1, h2 {
 }
 
 #right-benefits-text {
-    height: 630px;
     float: left;
     font-size: 120%;
     }
@@ -210,8 +209,8 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 150px;
     clear: both;
+    height: 150px;
 }
 
 .social-networks {
@@ -238,7 +237,7 @@ footer p {
     margin: 1%;
 }
 
-/* services */
+/* services.html: gallery */
 
 #photos {
     clear: both;
@@ -250,6 +249,38 @@ footer p {
 #photos > img {
     width: 100%;
 }
+
+/* services.html: services offered section */
+
+#services-offered {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#services-offered h2 {
+    font-size: 230%;
+    margin-bottom: 20px;
+}
+
+#services-offered ul {
+    list-style: none;
+}
+
+#services-offered li {
+    font-size: 120%;
+    line-height: 50px;
+}
+
+/* services.html: area covered section*/
+
+#area-covered {
+    clear: both;
+}
+
+#area-covered iframe {
+    width: 100%;
+}
+
 /* media queries */
 
 /* for media screens 1500px wide and up */

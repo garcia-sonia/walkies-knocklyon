@@ -178,6 +178,7 @@ h1, h2 {
 #benefits {
     height: 650px;
     background-color: #a1c9c9;
+    clear: both;
 }
 
 #left-benefits {
@@ -210,6 +211,7 @@ h1, h2 {
 
 footer {
     height: 150px;
+    clear: both;
 }
 
 .social-networks {
@@ -221,7 +223,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 230%;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -236,6 +238,18 @@ footer p {
     margin: 1%;
 }
 
+/* services */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
 /* media queries */
 
 /* for media screens 1500px wide and up */

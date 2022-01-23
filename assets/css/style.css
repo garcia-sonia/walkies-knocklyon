@@ -169,8 +169,8 @@ h1, h2 {
 }
 
 #right-about img {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -297,16 +297,60 @@ footer p {
 
 /* for larger to medium screens size from 1300px and down */
 @media screen and (max-width: 1300px) {
+
+    #cover-text {
+        left: 0;
+        font-size: 90%;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        letter-spacing: 0;
+    }
     
     #about-us {
-        width: 65%;
-        height: 1300px;
+        height: 500px;
         margin: 0 auto;
     }
 
     #about-header {
-        padding: 30px 0;
+        padding: 20px 0;
         margin: 0;
+    }
+
+    #left-about ul li {
+        margin-bottom: 5px;
+    }
+
+    #right-about img {
+        height: 250px;
+        width: 250px;
+    }
+
+}
+    
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #logo {
+        float: left;
+        font-size: 200%;
+        margin-left: 30px;
+    }
+    
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #about-us {
+        height: 800px;
+        margin: 0 auto;
     }
 
     #left-about, #right-about {
@@ -319,43 +363,20 @@ footer p {
         clear: both;
     }
 
-    #cover-text {
-        left: 0;
-        font-size: 90%;
+    #right-about img {
+        height: 250px;
         width: 250px;
-        height: 150px;
-        padding: 10px;
-        letter-spacing: 0;
-    }
-}
-    
-/* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
     }
 
-    #about-us {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+    #about-header {
+        font-size: 150%;
     }
 
-    #logo {
-        float: left;
-        font-size: 200%;
-        margin-left: 30px;
+    #left-about ul li { 
+        font-size: 90%;
     }
     
-    #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-    }
+
 /*
     #photos {
         column-count: 3;
@@ -373,6 +394,12 @@ footer p {
     #hero-image {
         background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
 }
+
+    #about-us {
+        height: 900px;
+        margin: 0 auto;
+}
+
 }
 @media screen and (max-width: 500px) {
 
@@ -386,5 +413,19 @@ footer p {
         font-size: 90%;
         letter-spacing: normal;
     }
-    
+
+    #about-us {
+        
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    #about-header {
+        font-size: 110%;
+    }
+
+    #left-about ul li {
+        margin-bottom: 5px;
+        font-size: 80%;
+    }
 }

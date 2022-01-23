@@ -291,10 +291,12 @@ footer p {
 }
 
 
+
+
 /* media queries */
 
-/* for larger to medium screens size from 1200px and down */
-@media screen and (max-width: 1200px) {
+/* for larger to medium screens size from 1300px and down */
+@media screen and (max-width: 1300px) {
     
     #about-us {
         width: 65%;
@@ -319,6 +321,11 @@ footer p {
 
     #cover-text {
         left: 0;
+        font-size: 90%;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        letter-spacing: 0;
     }
 }
     
@@ -363,8 +370,10 @@ footer p {
  /*   #photos {
         column-count: 2;
     }*/
+    #hero-image {
+        background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
 }
-
+}
 @media screen and (max-width: 500px) {
 
     #logo {
@@ -377,5 +386,5 @@ footer p {
         font-size: 90%;
         letter-spacing: normal;
     }
-}
     
+}

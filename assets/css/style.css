@@ -339,9 +339,43 @@ footer p {
         margin: 0 auto;
     }
 
+    #logo {
+        float: left;
+        font-size: 200%;
+        margin-left: 30px;
+    }
+    
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+/*
     #photos {
         column-count: 3;
-    }
-
+    } */
 }
 
+/* for small screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+    
+
+ /*   #photos {
+        column-count: 2;
+    }*/
+}
+
+@media screen and (max-width: 500px) {
+
+    #logo {
+        float: left;
+        font-size: 130%;
+        margin-left: 10px;
+    }
+    
+    #menu {
+        font-size: 90%;
+        letter-spacing: normal;
+    }
+}
+    

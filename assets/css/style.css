@@ -127,7 +127,7 @@ h1, h2 {
 
 #about-us {
     height: 650px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 #left-about {
@@ -185,13 +185,15 @@ h1, h2 {
 #left-benefits {
     width: 70%;
     float: left;
+    height: 650px;
 }
 
 #right-benefits {
     width: 30%;
     background-color: #a1c9c9;
-    margin-top: 20px;
+    padding-top: 20px;
     float: right;
+    height: auto;
 }
 
 #right-benefits-text {
@@ -208,6 +210,10 @@ h1, h2 {
     margin-bottom: 25px;
     list-style: none;
     font-size: 120%;
+}
+
+#left-benefits-photo-tablet {
+    display: none;
 }
 
 #left-benefits-photo {
@@ -326,6 +332,14 @@ footer p {
     #right-about img {
         height: 250px;
         width: 250px;
+    }
+
+    #left-benefits-photo {
+        display: none;
+    }
+
+    #left-benefits-photo-tablet {
+        display: inline-block;
     }
 
 }

@@ -193,7 +193,6 @@ h1, h2 {
     background-color: #a1c9c9;
     padding-top: 20px;
     float: right;
-    height: auto;
 }
 
 #right-benefits-text {
@@ -211,10 +210,10 @@ h1, h2 {
     list-style: none;
     font-size: 120%;
 }
-
+/*
 #left-benefits-photo-tablet {
     display: none;
-}
+}*/
 
 #left-benefits-photo {
     height: 650px;
@@ -333,7 +332,7 @@ footer p {
         height: 250px;
         width: 250px;
     }
-
+/*
     #left-benefits-photo {
         display: none;
     }
@@ -341,7 +340,7 @@ footer p {
     #left-benefits-photo-tablet {
         display: inline-block;
     }
-
+*/
 }
     
 /* for medium screen sizes from 950px wide and down */

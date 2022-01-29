@@ -375,7 +375,7 @@ footer p {
     }
 
     #left-about ul li { 
-        font-size: 90%;
+        font-size: 100%;
     }
     
 
@@ -412,7 +412,7 @@ footer p {
     }
     
     #menu {
-        font-size: 90%;
+        font-size: 100%;
         letter-spacing: normal;
     }
 
@@ -428,6 +428,6 @@ footer p {
 
     #left-about ul li {
         margin-bottom: 5px;
-        font-size: 80%;
+        font-size: 100%;
     }
 }

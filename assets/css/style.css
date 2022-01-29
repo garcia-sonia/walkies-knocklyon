@@ -221,6 +221,36 @@ h1, h2 {
     width: 100%;
 }
 */
+
+#benefits {
+    background: #a1c9c9;
+    margin: 0 .5rem;
+    padding: 2.8rem 0;
+}
+
+#benefits h2 {
+    font-size: 230%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#benefits ul { 
+    list-style: none;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#benefits ul li {
+    margin-bottom: 25px;
+    font-size: 120%;
+}
+
+
 /* footer */
 
 footer {

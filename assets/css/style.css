@@ -126,7 +126,7 @@ h1, h2 {
 }
 
 #about-us {
-    height: 650px;
+    clear: both;
     padding-top: 20px;
 }
 
@@ -226,6 +226,7 @@ h1, h2 {
     background: #a1c9c9;
     margin: 0 .5rem;
     padding: 2.8rem 0;
+    clear: both;
 }
 
 #benefits h2 {

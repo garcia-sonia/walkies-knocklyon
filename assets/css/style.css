@@ -378,11 +378,6 @@ footer p {
         font-size: 100%;
     }
     
-
-/*
-    #photos {
-        column-count: 3;
-    } */
 }
 
 /* for small screen sizes from 800px wide and down */
@@ -390,9 +385,7 @@ footer p {
 @media screen and (max-width: 800px) {
     
 
- /*   #photos {
-        column-count: 2;
-    }*/
+
     #hero-image {
         background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
 }

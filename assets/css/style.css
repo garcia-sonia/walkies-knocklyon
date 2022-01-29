@@ -175,7 +175,7 @@ h1, h2 {
 }
 
 /* index.html: benefits section */
-
+/*
 #benefits {
     height: 640px;
     clear: both;
@@ -215,15 +215,12 @@ h1, h2 {
     list-style: none;
     font-size: 120%;
 }
-/*
-#left-benefits-photo-tablet {
-    display: none;
-}*/
+
 
 #left-benefits-photo {
     width: 100%;
 }
-
+*/
 /* footer */
 
 footer {

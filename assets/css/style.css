@@ -177,26 +177,31 @@ h1, h2 {
 /* index.html: benefits section */
 
 #benefits {
-    height: 650px;
-    background-color: #a1c9c9;
+    height: 640px;
     clear: both;
+    
 }
 
 #left-benefits {
-    width: 70%;
+    width: 50%;
     float: left;
     height: 650px;
 }
 
+#left-benefits-photo {
+    
+    
+}
+
 #right-benefits {
-    width: 30%;
+    width: 50%;
     background-color: #a1c9c9;
-    padding-top: 20px;
+    height: 650px;
     float: right;
 }
 
 #right-benefits-text {
-    margin-right: 50px;
+    padding: 20px;
     text-align: justify;
 }
 
@@ -216,7 +221,7 @@ h1, h2 {
 }*/
 
 #left-benefits-photo {
-    height: 650px;
+    width: 100%;
 }
 
 /* footer */

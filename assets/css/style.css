@@ -175,52 +175,7 @@ h1, h2 {
 }
 
 /* index.html: benefits section */
-/*
-#benefits {
-    height: 640px;
-    clear: both;
-    
-}
 
-#left-benefits {
-    width: 50%;
-    float: left;
-    height: 650px;
-}
-
-#left-benefits-photo {
-    
-    
-}
-
-#right-benefits {
-    width: 50%;
-    background-color: #a1c9c9;
-    height: 650px;
-    float: right;
-}
-
-#right-benefits-text {
-    padding: 20px;
-    text-align: justify;
-}
-
-#right-benefits-text h2 {
-    font-size: 230%;
-    margin-bottom: 20px;
-}
-
-#right-benefits-text ul li {
-    margin-bottom: 25px;
-    list-style: none;
-    font-size: 120%;
-}
-
-
-#left-benefits-photo {
-    width: 100%;
-}
-*/
 
 #benefits {
     background: #a1c9c9;

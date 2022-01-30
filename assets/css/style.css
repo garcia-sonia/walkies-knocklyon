@@ -179,7 +179,7 @@ h1, h2 {
 
 #benefits {
     background: #a1c9c9;
-    margin: 0 .5rem;
+    
     padding: 2.8rem 0;
     clear: both;
     text-align: center;
@@ -210,7 +210,6 @@ h1, h2 {
 
 #benefits img {
     width: 30%;
-    padding-left: 20px;
 }
 
 /*video section*/

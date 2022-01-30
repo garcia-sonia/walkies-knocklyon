@@ -127,7 +127,7 @@ h1, h2 {
 
 #about-us {
     clear: both;
-    padding-top: 20px;
+    padding: 2.8rem 0;
 }
 
 #left-about {
@@ -179,7 +179,6 @@ h1, h2 {
 
 #benefits {
     background: #a1c9c9;
-    
     padding: 2.8rem 0;
     clear: both;
     text-align: center;
@@ -216,7 +215,6 @@ h1, h2 {
 
 #video {
     padding-top: 2.8rem;
-    
     text-align: center;
 }
 /* footer */
@@ -269,7 +267,7 @@ footer p {
 
 #services-offered {
     text-align: center;
-    margin-bottom: 50px;
+    padding: 2.8rem 0;
     height: auto;
 }
 

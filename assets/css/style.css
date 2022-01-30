@@ -221,9 +221,9 @@ h1, h2 {
 }
 /* footer */
 
-footer {
+#footer {
     clear: both;
-    height: 150px;
+    padding-bottom: 2.8rem;
 }
 
 .social-networks {

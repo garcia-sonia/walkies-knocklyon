@@ -104,17 +104,12 @@ h1, h2 {
     text-transform: none;
     text-align: center;
     letter-spacing: 4px;
-
     width: 350px;
     height: 250px;
-
     padding: 20px;
-
     background-color: rgba(255, 165, 0, .7);
-
     bottom: 30px;
     right: 30px;
-
     position: absolute;
 }
 
@@ -295,9 +290,6 @@ footer p {
     width: 100%;
 }
 
-
-
-
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */
@@ -305,11 +297,7 @@ footer p {
 
     #cover-text {
         left: 0;
-        font-size: 90%;
-        width: 250px;
-        height: 150px;
-        padding: 10px;
-        letter-spacing: 0;
+        font-size: 110%;
     }
     
     #about-us {
@@ -330,15 +318,7 @@ footer p {
         height: 250px;
         width: 250px;
     }
-/*
-    #left-benefits-photo {
-        display: none;
-    }
 
-    #left-benefits-photo-tablet {
-        display: inline-block;
-    }
-*/
 }
     
 /* for medium screen sizes from 950px wide and down */
@@ -353,7 +333,6 @@ footer p {
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
-
         clear: left;
         float: left;
         margin-left: 30px;

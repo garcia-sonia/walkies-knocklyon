@@ -182,6 +182,7 @@ h1, h2 {
     margin: 0 .5rem;
     padding: 2.8rem 0;
     clear: both;
+    text-align: center;
 }
 
 #benefits h2 {
@@ -210,6 +211,15 @@ h1, h2 {
 #benefits img {
     width: 40%;
     padding-left: 20px;
+}
+
+/*video section*/
+
+#video {
+    margin: 0 .5rem;
+    padding: 2.8rem 0;
+    clear: both;
+    text-align: center;
 }
 /* footer */
 

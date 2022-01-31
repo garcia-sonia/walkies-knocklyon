@@ -302,6 +302,36 @@ footer p {
     clear: both;
 }
 
+#contact details {
+    width: 80%;
+    max-width: 600px;
+}
+
+input[type=text], input[type=email] {
+    display: block;
+    margin: 2rem;
+    width: 80%;
+    height: 2rem;
+    max-width: 600px;
+}
+
+#register-type {
+    max-width: 600px;
+    padding-bottom: 2rem;
+}
+
+#register-type input {
+    margin-right: 2rem;
+}
+
+#free-text {
+    height: 150px;
+    width: 80%;
+    max-width: 600px;
+    resize: none;
+    padding: 10px;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */

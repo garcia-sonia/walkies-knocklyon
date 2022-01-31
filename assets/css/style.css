@@ -313,6 +313,7 @@ input[type=text], input[type=email] {
     width: 80%;
     height: 2rem;
     max-width: 600px;
+    text-align: center;
 }
 
 #register-type {

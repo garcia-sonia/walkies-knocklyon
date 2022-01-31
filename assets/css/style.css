@@ -301,17 +301,18 @@ footer p {
     background-color: #b9cbd9;
     clear: both;
     text-align: center;
+    margin: 0 auto;
 }
 
 #contact-details {
-    width: 80%;
+
     max-width: 600px;
     margin: 0 auto;
 }
 
 input[type=text], input[type=email] {
-    display: block;
-    margin: 2rem;
+    
+    margin: 1rem auto;
     width: 80%;
     height: 2rem;
     max-width: 600px;

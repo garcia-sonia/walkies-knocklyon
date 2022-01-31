@@ -319,16 +319,21 @@ input[type=text], input[type=email] {
 }
 
 #register-type {
+    
     max-width: 400px;
-    height: 2rem;
+    
     margin-bottom: 1rem;
     background-color: #fff;
     padding: 1rem;
     font-size: 90%;
 }
 
+
 #register-type input {
     margin-right: 2rem;
+    display: block;
+    text-align: justify;
+    
 }
 
 #free-text {

@@ -302,10 +302,7 @@ footer p {
     background-size: cover;
     background-position: center;
     padding: 2.8rem;
-    
     clear: both;
-    
-    
 }
 
 
@@ -314,45 +311,38 @@ input[type=text], input[type=email] {
     margin-bottom: 1rem;
     display: block;
     height: 2rem;
-    max-width: 400px;
     text-align: center;
 }
 
 #register-type {
-    
-    max-width: 400px;
-    
     margin-bottom: 1rem;
     background-color: #fff;
     padding: 1rem;
-    font-size: 90%;
+    font-size: 85%;
+    width: 200px;
+    line-height: 30px;
 }
 
 
 #register-type input {
-    margin-right: 2rem;
-    display: block;
-    text-align: justify;
     
+    text-align: justify;
 }
 
 #free-text {
     height: 100px;
-    
-    max-width: 400px;
+    width: 200px;
     margin-bottom: 2rem;
     padding: 1rem
 }
 
 input[type=submit] {
-    font-weight: 600;
     font-size: 120%;
     width: 75px;
     height: 50px;
     background-color: #CDCDCD;
     border: 3px solid #808080;
     display: block;
-    
 }
 
 input[type=submit]:hover {

@@ -297,8 +297,12 @@ footer p {
 /* register.html: register form section */
 
 #register {
+    background-image: url('../images/register-form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 2.8rem;
-    background-color: #b9cbd9;
+    
     clear: both;
     text-align: center;
     margin: 0 auto;
@@ -311,7 +315,6 @@ footer p {
 }
 
 input[type=text], input[type=email] {
-    
     margin: 1rem auto;
     width: 80%;
     height: 2rem;
@@ -321,8 +324,10 @@ input[type=text], input[type=email] {
 
 #register-type {
     max-width: 600px;
-    padding-bottom: 2rem;
-    margin: 0 auto;
+    height: 2rem;
+    margin: 1rem auto;
+    background-color: #fff;
+    padding: 1rem;
 }
 
 #register-type input {
@@ -334,6 +339,7 @@ input[type=text], input[type=email] {
     width: 80%;
     max-width: 600px;
     margin-bottom: 2rem;
+    padding: 1rem
 }
 
 input[type=submit] {

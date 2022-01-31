@@ -300,11 +300,13 @@ footer p {
     padding: 2.8rem;
     background-color: #b9cbd9;
     clear: both;
+    text-align: center;
 }
 
-#contact details {
+#contact-details {
     width: 80%;
     max-width: 600px;
+    margin: 0 auto;
 }
 
 input[type=text], input[type=email] {
@@ -319,6 +321,7 @@ input[type=text], input[type=email] {
 #register-type {
     max-width: 600px;
     padding-bottom: 2rem;
+    margin: 0 auto;
 }
 
 #register-type input {

@@ -294,6 +294,14 @@ footer p {
     width: 100%;
 }
 
+/* register.html: register form section */
+
+#register {
+    padding: 2.8rem;
+    background-color: #b9cbd9;
+    clear: both;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */

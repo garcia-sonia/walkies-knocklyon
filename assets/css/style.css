@@ -329,11 +329,26 @@ input[type=text], input[type=email] {
 }
 
 #free-text {
-    height: 150px;
+    height: 100px;
     width: 80%;
     max-width: 600px;
-    resize: none;
-    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+input[type=submit] {
+    font-weight: 600;
+    font-size: 120%;
+    width: 75px;
+    height: 50px;
+    background-color: #CDCDCD;
+    border: 3px solid #808080;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+    border-color: #fff;
 }
 
 /* media queries */

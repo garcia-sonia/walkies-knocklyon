@@ -359,6 +359,7 @@ input[type=submit]:hover {
     #cover-text {
         left: 0;
         font-size: 110%;
+        height: 210px;
     }
     
     #about-us {
@@ -401,6 +402,12 @@ input[type=submit]:hover {
         line-height: 25px;
     }
 
+    #cover-text {
+        font-size: 100%;
+        width: 310px;
+        height: 200px;
+    }
+
     #about-us {
         height: 800px;
         margin: 0 auto;
@@ -425,7 +432,7 @@ input[type=submit]:hover {
         font-size: 100%;
     }
     
-        #about-header, #benefits-header, #services-header {
+    #about-header, #benefits-header, #services-header {
         padding: 10px 0;
         font-size: 150%;
     }
@@ -435,8 +442,6 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 800px) {
     
-
-
     #hero-image {
         background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
 }
@@ -464,8 +469,13 @@ input[type=submit]:hover {
         letter-spacing: normal;
     }
 
+    #cover-text {
+        font-size: 90%;
+        width: 260px;
+        height: 180px;
+    }
+
     #about-us {
-        
         height: 1000px;
         margin: 0 auto;
     }

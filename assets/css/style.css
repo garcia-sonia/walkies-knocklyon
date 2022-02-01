@@ -304,7 +304,9 @@ footer p {
     padding: 2.8rem;
     clear: both;
 }
-
+#register-heading {
+    padding-bottom: 1rem;
+}
 
 
 input[type=text], input[type=email] {
@@ -384,6 +386,9 @@ input[type=submit]:hover {
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    h2 {
+        font-size: 150%;
+    }
     #logo {
         float: left;
         font-size: 200%;
@@ -420,10 +425,6 @@ input[type=submit]:hover {
         width: 250px;
     }
 
-    #about-header {
-        font-size: 150%;
-    }
-
     #left-about ul li { 
         font-size: 100%;
     }
@@ -448,6 +449,10 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 500px) {
 
+    h2 {
+        font-size: 110%;
+    }
+    
     #logo {
         float: left;
         font-size: 130%;
@@ -463,10 +468,6 @@ input[type=submit]:hover {
         
         height: 1000px;
         margin: 0 auto;
-    }
-
-    #about-header {
-        font-size: 110%;
     }
 
     #left-about ul li {

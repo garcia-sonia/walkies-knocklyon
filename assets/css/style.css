@@ -443,7 +443,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 800px) {
     
     #hero-image {
-        background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
+        background: url('../images/dog-landing-tablet.jpg') no-repeat 0% 50% / cover;
 }
 
     #about-us {
@@ -453,6 +453,10 @@ input[type=submit]:hover {
 
 }
 @media screen and (max-width: 500px) {
+
+    #hero-image {
+        background: url('../images/dog-landing-mobile.jpg') no-repeat 0% 50% / cover;
+    }
 
     #about-header, #benefits-header, #services-header {
         font-size: 110%;

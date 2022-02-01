@@ -21,9 +21,6 @@ h1, h2 {
     color: #252525;
 }
 
-h2 {
-    font-size: 230%;
-}
 
 #logo {
     float: left;
@@ -183,7 +180,7 @@ h2 {
     text-align: center;
 }
 
-#benefits h2 {
+#benefits-header {
     font-size: 230%;
     margin-bottom: 20px;
     text-align: center;
@@ -270,7 +267,7 @@ footer p {
     height: auto;
 }
 
-#services-offered h2 {
+#services-header {
     font-size: 230%;
     margin-bottom: 20px;
 }
@@ -304,7 +301,7 @@ footer p {
     padding: 2.8rem;
     clear: both;
 }
-#register-heading {
+#register-header {
     padding-bottom: 1rem;
 }
 
@@ -368,7 +365,7 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #about-header {
+    #about-header, #benefits-header, #services-header {
         padding: 20px 0;
         margin: 0;
     }
@@ -387,9 +384,6 @@ input[type=submit]:hover {
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    h2 {
-        font-size: 150%;
-    }
     #logo {
         float: left;
         font-size: 200%;
@@ -430,6 +424,10 @@ input[type=submit]:hover {
         font-size: 100%;
     }
     
+        #about-header, #benefits-header, #services-header {
+        padding: 10px 0;
+        font-size: 150%;
+    }
 }
 
 /* for small screen sizes from 800px wide and down */
@@ -450,7 +448,7 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 500px) {
 
-    h2 {
+    #about-header, #benefits-header, #services-header {
         font-size: 110%;
     }
     

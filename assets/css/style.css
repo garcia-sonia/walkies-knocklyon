@@ -338,17 +338,18 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
-    font-size: 120%;
-    width: 75px;
-    height: 50px;
+    
+    width: 210px;
+    height: 30px;
     background-color: #CDCDCD;
     border: 3px solid #808080;
     display: block;
 }
 
 input[type=submit]:hover {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: blue;
+    border-color: #808080;;
+    color: #fff;
 }
 
 /* media queries */

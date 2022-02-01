@@ -314,26 +314,27 @@ input[type=text], input[type=email] {
     display: block;
     height: 2rem;
     text-align: center;
+    width: 210px;
 }
 
 #register-type {
     margin-bottom: 1rem;
     background-color: #fff;
     padding: 1rem;
-    font-size: 85%;
-    width: 200px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
     line-height: 30px;
 }
 
 
 #register-type input {
-    
     text-align: justify;
 }
 
 #free-text {
     height: 100px;
-    width: 200px;
+    width: 180px;
     margin-bottom: 2rem;
     padding: 1rem
 }

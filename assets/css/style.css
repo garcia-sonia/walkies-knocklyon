@@ -352,6 +352,49 @@ input[type=submit]:hover {
     color: #fff;
 }
 
+/* Donate and Volunteer section */
+
+#donate-volunteer {
+    clear: both;
+    padding-top: 50px;
+}
+
+#donate-outer{
+    height: 300px;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#donate-cover-text h2{
+    color: #fff;
+}
+
+#donate-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/senior4.jpg') no-repeat 0% 50% / cover;
+}
+
+#volunteer-outer {
+    height: 300px;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}  
+    
+#volunteer-cover-text h2{
+    color: #fff;
+}
+    
+#volunteer-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/volunteer.jpg') no-repeat 0% 50% / cover;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */

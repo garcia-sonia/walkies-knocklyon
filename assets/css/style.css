@@ -357,6 +357,7 @@ input[type=submit]:hover {
 #donate, #volunteer {
     padding: 50px;
     clear: both;
+    padding: 50px 600px 50px 0px;
 }
 
 #donate img, #volunteer img {
@@ -369,7 +370,7 @@ input[type=submit]:hover {
 }
 
 #donate-text, #volunteer-text {
-    width: 65%;
+    width: 40%;
     height: 250px;
     float: right;
 }

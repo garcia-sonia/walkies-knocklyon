@@ -80,7 +80,7 @@ h1, h2 {
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url('../images/dog-landing.jpg') no-repeat 0% 50% / cover;
+    background: url('../images/walkies-landing.jpg') no-repeat 50% 0% / cover;
 
 /* animates zoom effect on loading page */
     animation-name: hero-zoom;

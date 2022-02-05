@@ -500,6 +500,9 @@ input[type=submit]:hover {
         font-size: 100%;
     }
     
+    #benefits ul li {
+        font-size: 100%;
+    }
     #services-list li {
         font-size: 100%;
     }

@@ -626,4 +626,8 @@ input[type=submit]:hover {
     #benefits ul li {
         font-size: 100%;
     }
+
+    #donate-photo img, #volunteer-photo img, #adopt-photo img {
+        width: 100%;
+    }
 }

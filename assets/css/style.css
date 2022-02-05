@@ -360,15 +360,6 @@ input[type=submit]:hover {
     height: 800px;
 }
 
-h3 {
-    font-family: Oswald, sans-serif;
-    text-transform: none;
-    letter-spacing: 4px;
-    color: #252525;
-    font-size: 150%;
-    padding-bottom: 1rem;
-}
-
 #donate, #volunteer, #adopt {
     clear: both;
 }
@@ -382,6 +373,16 @@ h3 {
     width: 60%;
     float: right;
 }
+
+#donate-header, #volunteer-header, #adopt-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
+
 #donate img, #volunteer img, #adopt img {
     height: 230px;
     width: auto;
@@ -391,12 +392,15 @@ h3 {
     float: right;
 }
 
-#donate-text, #volunteer-text, #adopt-text{
+#donate-text, #volunteer-text, #adopt-text {
     width: 70%;
     padding-top: 2rem;
     line-height: 30px;
     text-align: justify;
     float: left;
+}
+
+#donate-text > p, #volunteer-text > p, #adopt-text > p {
     font-size: 120%;
 }
 
@@ -496,6 +500,13 @@ h3 {
     #about-header, #benefits-header, #services-header {
         padding: 10px 0;
         font-size: 150%;
+    }
+
+    #donate-header, #volunteer-header, #adopt-header{
+        font-size: 130%;
+    }
+    #donate-text > p, #volunteer-text > p, #adopt-text > p {
+        font-size: 100%;
     }
 }
 

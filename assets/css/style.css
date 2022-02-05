@@ -357,30 +357,37 @@ input[type=submit]:hover {
 #register-more {
     clear:both;
     padding: 2.8rem;
+    height: 850px;
 }
 
 #donate, #volunteer, #adopt {
-    padding: 50px;
     clear: both;
-    padding: 50px 600px 50px 0px;
 }
 
+#donate-photo, #volunteer-photo, #adopt-photo {
+    width: 40%;
+    float: left;
+}
+
+#donate-content, #volunteer-content, #adopt-content {
+    width: 60%;
+    float: right;
+}
 #donate img, #volunteer img, #adopt img {
-    height: 250px;
+    height: 230px;
     width: auto;
     border-radius: 50px;
-    float: left;
     clear: both;
     padding: 1rem;
+    float: right;
 }
 
 #donate-text, #volunteer-text, #adopt-text{
-    width: 40%;
-    height: 250px;
-    float: right;
-    padding: 1rem;
+    width: 70%;
+    padding-top: 2rem;
     line-height: 30px;
     text-align: justify;
+    float: left;
 }
 
 #donate a, #volunteer a, #adopt a{

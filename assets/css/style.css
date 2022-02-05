@@ -354,6 +354,11 @@ input[type=submit]:hover {
 
 /* Donate and Volunteer section */
 
+#register-more {
+    clear:both;
+    padding: 2.8rem;
+}
+
 #donate, #volunteer, #adopt {
     padding: 50px;
     clear: both;
@@ -366,14 +371,14 @@ input[type=submit]:hover {
     border-radius: 50px;
     float: left;
     clear: both;
-    margin-left: 100px;
+    padding: 1rem;
 }
 
 #donate-text, #volunteer-text, #adopt-text{
     width: 40%;
     height: 250px;
     float: right;
-    padding-top: 1rem;
+    padding: 1rem;
     line-height: 30px;
     text-align: justify;
 }

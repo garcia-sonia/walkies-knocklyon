@@ -373,17 +373,17 @@ input[type=submit]:hover {
     width: 40%;
     height: 250px;
     float: right;
-    padding-top: 2rem;
+    padding-top: 1rem;
     line-height: 30px;
     text-align: justify;
 }
 
-#donate a, #volunteer a{
+#donate a, #volunteer a, #adopt a{
     text-decoration: none;
     color: inherit;
 }
 
-#donate a:hover, #volunteer a:hover {
+#donate a:hover, #volunteer a:hover, #adopt a:hover {
     border-bottom: 1px solid #3a3a3a; 
 }
 

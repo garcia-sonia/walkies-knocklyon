@@ -553,11 +553,20 @@ input[type=submit]:hover {
     #donate-photo, #volunteer-photo, #adopt-photo {
         width: 60%;
         float: left;
+        display: flex;
+        justify-content: center;
 }
 
     #donate-content, #volunteer-content, #adopt-content {
         width: 100%
 }
+
+    #donate-text {
+        text-align: center;
+        margin-bottom: 2rem;
+}
+
+
 
 }
 @media screen and (max-width: 500px) {

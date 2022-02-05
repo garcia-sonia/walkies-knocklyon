@@ -500,6 +500,10 @@ input[type=submit]:hover {
         font-size: 100%;
     }
     
+    #services-list li {
+        font-size: 100%;
+    }
+
     #about-header, #benefits-header, #services-header {
         padding: 10px 0;
         font-size: 150%;

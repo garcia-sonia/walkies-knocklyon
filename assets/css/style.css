@@ -483,10 +483,6 @@ input[type=submit]:hover {
         height: 300px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
     }
-
-    #about-header, #benefits-header, #services-header {
-        font-size: 110%;
-    }
     
     #logo {
         float: left;
@@ -510,8 +506,16 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
+    #about-header, #benefits-header, #services-header {
+        font-size: 110%;
+    }
+
     #left-about ul li {
         margin-bottom: 5px;
+        font-size: 100%;
+    }
+
+    #benefits ul li {
         font-size: 100%;
     }
 }

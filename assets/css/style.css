@@ -381,7 +381,8 @@ input[type=submit]:hover {
 @media screen and (max-width: 1300px) {
 
     #cover-text {
-        left: 0;
+        bottom: 0;
+        right: 0;
         font-size: 110%;
         height: 210px;
     }
@@ -465,11 +466,22 @@ input[type=submit]:hover {
 /* for small screen sizes from 800px wide and down */
 
 @media screen and (max-width: 800px) {
+
+    #hero-outer {
+        height: 450px;
+    }
     
     #hero-image {
         height: 450px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
 }
+
+    #cover-text {
+        width: 200px;
+        font-size: 90%;
+        height: auto;
+        padding: 1rem;
+    }
 
     #about-us {
         height: 900px;
@@ -484,11 +496,21 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 500px) {
 
+    #hero-outer {
+        height: 300px;
+    }
     #hero-image {
         height: 300px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
     }
     
+    #cover-text {
+        font-size: 70%;
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+    }
+
     #logo {
         float: left;
         font-size: 130%;
@@ -498,12 +520,6 @@ input[type=submit]:hover {
     #menu {
         font-size: 100%;
         letter-spacing: normal;
-    }
-
-    #cover-text {
-        font-size: 90%;
-        width: 260px;
-        height: 180px;
     }
 
     #about-us {

@@ -357,7 +357,16 @@ input[type=submit]:hover {
 #register-more {
     clear:both;
     padding: 2.8rem;
-    height: 850px;
+    height: 800px;
+}
+
+h3 {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
 }
 
 #donate, #volunteer, #adopt {
@@ -388,6 +397,7 @@ input[type=submit]:hover {
     line-height: 30px;
     text-align: justify;
     float: left;
+    font-size: 120%;
 }
 
 #donate a, #volunteer a, #adopt a{
@@ -430,6 +440,9 @@ input[type=submit]:hover {
         padding-bottom: 2.8rem;
     }
 
+    #donate-text, #volunteer-text, #adopt-text{
+        width: 80%;
+    }
 }
     
 /* for medium screen sizes from 950px wide and down */

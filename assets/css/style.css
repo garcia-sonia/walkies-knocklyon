@@ -502,11 +502,22 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
+    #register-more {
+        height: 700px;
+    }
+    #donate-text, #volunteer-text, #adopt-text {
+        padding-top: 1rem;
+    }
+
     #donate-header, #volunteer-header, #adopt-header{
         font-size: 130%;
     }
     #donate-text > p, #volunteer-text > p, #adopt-text > p {
-        font-size: 100%;
+        font-size: 90%;
+    }
+
+    #donate img, #volunteer img, #adopt img {
+        height: 200px;
     }
 }
 

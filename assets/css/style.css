@@ -502,17 +502,19 @@ input[type=submit]:hover {
     }
 
     #register-more {
-        height: 700px;
+        height: 750px;
     }
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
+        width: 100%;
     }
 
     #donate-header, #volunteer-header, #adopt-header{
         font-size: 130%;
+        padding-bottom: 0.5rem;
     }
     #donate-text > p, #volunteer-text > p, #adopt-text > p {
-        font-size: 90%;
+        font-size: 100%;
     }
 }
 
@@ -584,7 +586,6 @@ input[type=submit]:hover {
 
     #left-about ul li {
         margin-bottom: 5px;
-        font-size: 100%;
     }
 
     #benefits ul li {

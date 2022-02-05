@@ -476,6 +476,11 @@ input[type=submit]:hover {
         margin: 0 auto;
 }
 
+    #video iframe {
+        width: fit-content;
+        height: auto;
+}
+
 }
 @media screen and (max-width: 500px) {
 

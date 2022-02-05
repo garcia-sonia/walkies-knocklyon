@@ -547,6 +547,18 @@ input[type=submit]:hover {
         height: auto;
 }
 
+    #register-more {
+        height: 1100px;
+    }
+    #donate-photo, #volunteer-photo, #adopt-photo {
+        width: 60%;
+        float: left;
+}
+
+    #donate-content, #volunteer-content, #adopt-content {
+        width: 100%
+}
+
 }
 @media screen and (max-width: 500px) {
 

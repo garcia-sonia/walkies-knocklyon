@@ -384,8 +384,7 @@ input[type=submit]:hover {
 }
 
 #donate img, #volunteer img, #adopt img {
-    height: 230px;
-    width: auto;
+    width: 100%;
     border-radius: 50px;
     clear: both;
     padding: 1rem;
@@ -514,10 +513,6 @@ input[type=submit]:hover {
     }
     #donate-text > p, #volunteer-text > p, #adopt-text > p {
         font-size: 90%;
-    }
-
-    #donate img, #volunteer img, #adopt img {
-        height: 200px;
     }
 }
 

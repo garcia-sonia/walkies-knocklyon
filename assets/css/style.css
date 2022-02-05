@@ -551,19 +551,22 @@ input[type=submit]:hover {
         height: 1100px;
     }
     #donate-photo, #volunteer-photo, #adopt-photo {
-        width: 60%;
+        width: 100%;
         float: left;
         display: flex;
         justify-content: center;
 }
 
+    #donate-photo img, #volunteer-photo img, #adopt-photo img {
+        width: 50%;
+    }
     #donate-content, #volunteer-content, #adopt-content {
         width: 100%
 }
 
-    #donate-text {
+    #donate-text, #volunteer-text, #adopt-text {
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 2.8rem;
 }
 
 

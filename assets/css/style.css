@@ -125,7 +125,7 @@ h1, h2 {
 
 #about-us {
     clear: both;
-    padding: 2.8rem;
+    padding: 2.8rem 0;
 }
 
 #left-about {
@@ -515,9 +515,13 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #about-header, #benefits-header, #services-header {
-        padding: 20px 0;
+    #about-header, #benefits-header {
+        padding-bottom: 2.8rem;
         margin: 0;
+    }
+
+    #services-header {
+        padding-bottom: 2.8rem;
     }
 
     #right-about img {
@@ -604,11 +608,13 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
-    #about-header, #benefits-header, #services-header {
-        padding: 10px 0;
+    #about-header, #benefits-header  {
         font-size: 150%;
     }
 
+    #services-header {
+        font-size: 150%;
+    }
     
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
@@ -753,7 +759,6 @@ input[type=submit]:hover {
 
     #about-header, #benefits-header {
         font-size: 110%;
-        padding-bottom: 0.5rem;
     }
 
     #left-about ul {

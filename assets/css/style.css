@@ -329,6 +329,14 @@ footer p {
     font-size: 120%;
 }
 
+#tailored-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#tailored-text a:hover {
+    border-bottom: 1px solid #3a3a3a; 
+}
 /* services.html: area covered section*/
 
 #area-covered {

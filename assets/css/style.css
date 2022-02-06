@@ -120,15 +120,15 @@ h1, h2 {
 #about-header {
     text-align: center;
     font-size: 230%;
+    padding-bottom: 2.8rem;
 }
 
 #about-us {
     clear: both;
-    padding: 2.8rem 0;
+    padding: 2.8rem;
 }
 
 #left-about {
-    padding-top: 30px;
     width: 65%;
     float: left;
 }
@@ -183,7 +183,7 @@ h1, h2 {
 
 #benefits-header {
     font-size: 230%;
-    margin-bottom: 20px;
+    margin-bottom: 2.8rem;
     text-align: center;
 }
 
@@ -667,8 +667,7 @@ input[type=submit]:hover {
     }
 
     #about-us {
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
 }
 
     #video iframe {
@@ -756,16 +755,24 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #about-header, #benefits-header, #services-header {
+    #about-header, #benefits-header {
         font-size: 110%;
+        padding-bottom: 0.5rem;
     }
 
+    #left-about ul {
+        margin-bottom: 1rem;
+    }
     #left-about ul li {
         margin-bottom: 5px;
     }
 
     #benefits ul li {
         font-size: 100%;
+    }
+
+    #services-header {
+        font-size: 110%;
     }
 
     #donate-photo img, #volunteer-photo img, #adopt-photo img {

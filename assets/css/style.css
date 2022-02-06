@@ -520,10 +520,6 @@ input[type=submit]:hover {
         margin: 0;
     }
 
-    #left-about ul li {
-        margin-bottom: 5px;
-    }
-
     #right-about img {
         height: 250px;
         width: 250px;
@@ -762,9 +758,6 @@ input[type=submit]:hover {
 
     #left-about ul {
         margin-bottom: 1rem;
-    }
-    #left-about ul li {
-        margin-bottom: 5px;
     }
 
     #benefits ul li {

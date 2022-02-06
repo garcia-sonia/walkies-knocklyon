@@ -413,11 +413,12 @@ input[type=submit]:hover {
 
 #register-more {
     padding: 2.8rem;
-    height: 1400px;
+    height: 900px;
 }
 
 #donate, #volunteer, #adopt {
     clear: both;
+    padding: 2.8rem;
 }
 
 #donate-photo, #volunteer-photo, #adopt-photo {
@@ -450,6 +451,7 @@ input[type=submit]:hover {
 #donate-text, #volunteer-text, #adopt-text {
     width: 60%;
     padding-top: 2rem;
+    padding-left: 1rem;
     line-height: 30px;
     text-align: justify;
     float: left;
@@ -517,21 +519,26 @@ input[type=submit]:hover {
         padding: 1rem;
     }
 
+    #register-more {
+        height: 800px;
+    }
+
+    #donate img, #volunteer img, #adopt img {
+        width: 90%;
+    }
+
     #donate-text, #volunteer-text, #adopt-text{
         width: 80%;
+        padding-top: 1rem;
     }
 
-    #register-more {
-        height: 1100px;
-    }
+ 
 }
 
-/*for medium screen sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* for larger to medium screens size from 1300px and down */
+@media screen and (max-width: 1100px) {
 
-    #register-more {
-        height: 1000px;
-    }
+
 }
 
     
@@ -596,7 +603,7 @@ input[type=submit]:hover {
     }
 
     #register-more {
-        height: 750px;
+        height: 600px;
     }
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
@@ -641,9 +648,6 @@ input[type=submit]:hover {
         height: auto;
 }
 
-    #register-more {
-        height: 1100px;
-    }
     #donate-photo, #volunteer-photo, #adopt-photo {
         width: 100%;
         float: left;

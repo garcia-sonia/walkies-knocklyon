@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and Logo */
+/* headings and logo */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -144,7 +144,7 @@ h1, h2 {
 }
 
 #left-about ul li {
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     font-size: 120%;
 }
 
@@ -158,7 +158,7 @@ h1, h2 {
 }
 
 #right-about {
-    padding-top: 30px;
+    padding-top: 1.5rem;
     width: 35%;
     float: right;
     margin: 0 auto;
@@ -208,12 +208,13 @@ h1, h2 {
     width: 30%;
 }
 
-/*video section*/
+/*index.html: video section*/
 
 #video {
     padding-top: 2.8rem;
     text-align: center;
 }
+
 /* footer */
 
 #footer {
@@ -337,6 +338,7 @@ footer p {
 #tailored-text a:hover {
     border-bottom: 1px solid #3a3a3a; 
 }
+
 /* services.html: area covered section*/
 
 #area-covered {
@@ -357,6 +359,7 @@ footer p {
     font-size: 230%;
     margin-bottom: 20px;
 }
+
 /* register.html: register form section */
 
 #register {
@@ -370,7 +373,6 @@ footer p {
 #register-header {
     padding-bottom: 1rem;
 }
-
 
 input[type=text], input[type=email] {
     margin-bottom: 1rem;
@@ -389,7 +391,6 @@ input[type=text], input[type=email] {
     width: 180px;
     line-height: 30px;
 }
-
 
 #register-type input {
     text-align: justify;
@@ -417,7 +418,7 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-/* Register.html: Register more section */
+/* register.html: register more section */
 
 #register-more {
     padding: 2.8rem;
@@ -482,7 +483,8 @@ input[type=submit]:hover {
     clear: both
 }
 
-/* coffee mornings section: register.html */
+/* register.html: coffee mornings section */
+
 #coffee-mornings {
     padding: 2.8rem;
     text-align: center;
@@ -514,8 +516,6 @@ input[type=submit]:hover {
     #about-us {
         margin: 0 auto;
     }
-
-
 
     #right-about img {
         height: 250px;
@@ -652,7 +652,7 @@ input[type=submit]:hover {
     #hero-image {
         height: 450px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
-}
+    }
 
     #cover-text {
         width: 200px;
@@ -663,19 +663,19 @@ input[type=submit]:hover {
 
     #about-us {
         margin: 0 auto;
-}
+    }   
 
     #video iframe {
         width: fit-content;
         height: auto;
-}
+    }
 
     #donate-photo, #volunteer-photo, #adopt-photo {
         width: 100%;
         float: left;
         display: flex;
         justify-content: center;
-}
+    }
 
     #donate-photo img, #volunteer-photo img, #adopt-photo img {
         width: 80%;
@@ -684,7 +684,7 @@ input[type=submit]:hover {
         width: 100%;
         margin: 0;
         padding: 0;
-}
+    }
 
     #donate-text, #volunteer-text, #adopt-text {
         width: 100%;
@@ -692,7 +692,7 @@ input[type=submit]:hover {
         margin-bottom: 1rem;
         margin-left: 0;
         padding-left: 0;
-}
+    }
 
     #tailored-photo {
         width: 100%;
@@ -714,7 +714,7 @@ input[type=submit]:hover {
         margin-bottom: 2.8rem;
         width: 100%;
         padding-left: 0;
-}
+    }
 }
 
 @media screen and (max-width: 500px) {

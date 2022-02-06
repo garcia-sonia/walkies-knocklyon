@@ -282,6 +282,51 @@ footer p {
     line-height: 50px;
 }
 
+#tailored-services {
+    padding: 2.8rem;
+    height: auto;
+}
+
+#tailored-photo {
+    width: 50%;
+    float: left;
+}
+
+#tailored-photo img {
+    width: 80%;
+    border-radius: 50px;
+    clear: both;
+    padding: 1rem;
+    float: right;
+}
+
+#tailored-content {
+    width: 50%;
+    float: right;
+}
+
+#tailored-text {
+    float: left;
+    width: 60%;
+    padding-top: 2.8rem;
+    padding-left: 1rem;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#tailored-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
+
+#tailored-text > p {
+    font-size: 120%;
+}
+
 /* services.html: area covered section*/
 
 #area-covered {

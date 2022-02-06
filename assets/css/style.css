@@ -350,7 +350,7 @@ footer p {
 }
 
 #area-text > p {
-    line-height: 50px;
+    line-height: 30px;
     font-size: 120%;
 }
 
@@ -608,6 +608,15 @@ input[type=submit]:hover {
         font-size: 150%;
     }
     
+    #area-text > p {
+        font-size: 100%;
+    }
+    
+    #area-header {
+        font-size: 150%;
+    }
+
+
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
         width: 100%;
@@ -759,6 +768,14 @@ input[type=submit]:hover {
 
     #benefits ul li {
         font-size: 100%;
+    }
+
+    #area-text > p {
+        font-size: 100%;
+    }
+    
+    #area-header {
+        font-size: 110%;
     }
 
     #services-header {

@@ -17,7 +17,7 @@ body {
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: none;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     color: #252525;
 }
 
@@ -25,25 +25,24 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 1.8rem;
 }
 
 /* navigation links */
 
 #menu {
     font-size: 120%;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
 }
 
 #menu, #logo {
-    line-height: 75px;
-
+    line-height: 4.5rem;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 1.8rem;
 }
 
 #menu a {
@@ -52,11 +51,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 0.06rem solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 0.06rem solid #3a3a3a;
 }
 
 /* index.html: hero image and cover text */
@@ -107,12 +106,12 @@ h1, h2 {
     letter-spacing: 4px;
     width: 350px;
     height: 230px;
-    padding: 20px;
+    padding: 0.25rem;
     background-color: rgba(255, 165, 0, .7);
-    bottom: 30px;
-    right: 30px;
+    bottom: 1.8rem;
+    right: 1.8rem;
     position: absolute;
-    border-radius: 50px;
+    border-radius: 20%;
 }
 
 /* index.html: about us section */
@@ -136,11 +135,11 @@ h1, h2 {
 #left-about ul { 
     list-style: none;
     text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.8rem;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 #left-about ul li {
@@ -158,7 +157,7 @@ h1, h2 {
 }
 
 #right-about {
-    padding-top: 1.5rem;
+    padding-top: 0.06rem;
     width: 35%;
     float: right;
     margin: 0 auto;
@@ -166,9 +165,9 @@ h1, h2 {
 }
 
 #right-about img {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+    border-radius: 30%;
 }
 
 /* index.html: benefits section */
@@ -191,15 +190,15 @@ h1, h2 {
 #benefits ul { 
     list-style: none;
     text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 1.8rem;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 #benefits ul li {
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     font-size: 120%;
     text-align: center;
 }

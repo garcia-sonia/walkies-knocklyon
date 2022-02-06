@@ -183,7 +183,7 @@ h1, h2 {
 
 #benefits-header {
     font-size: 230%;
-    margin-bottom: 2.8rem;
+    padding-bottom: 2.8rem;
     text-align: center;
 }
 
@@ -264,13 +264,13 @@ footer p {
 
 #services-offered {
     text-align: center;
-    padding: 2.8rem;
+    padding: 2.8rem 0;
     height: auto;
 }
 
 #services-header {
     font-size: 230%;
-    margin-bottom: 20px;
+    margin-bottom: 2.8rem;
 }
 
 #services-offered ul {
@@ -515,14 +515,7 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #about-header, #benefits-header {
-        padding-bottom: 2.8rem;
-        margin: 0;
-    }
 
-    #services-header {
-        padding-bottom: 2.8rem;
-    }
 
     #right-about img {
         height: 250px;

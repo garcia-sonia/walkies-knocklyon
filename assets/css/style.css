@@ -409,10 +409,9 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-/* Donate and Volunteer section */
+/* Register.html: Regiter more section */
 
 #register-more {
-    clear:both;
     padding: 2.8rem;
     height: 1400px;
 }
@@ -422,12 +421,12 @@ input[type=submit]:hover {
 }
 
 #donate-photo, #volunteer-photo, #adopt-photo {
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
 #donate-content, #volunteer-content, #adopt-content {
-    width: 60%;
+    width: 50%;
     float: right;
 }
 
@@ -441,7 +440,7 @@ input[type=submit]:hover {
 }
 
 #donate img, #volunteer img, #adopt img {
-    width: 100%;
+    width: 60%;
     border-radius: 50px;
     clear: both;
     padding: 1rem;
@@ -449,7 +448,7 @@ input[type=submit]:hover {
 }
 
 #donate-text, #volunteer-text, #adopt-text {
-    width: 70%;
+    width: 60%;
     padding-top: 2rem;
     line-height: 30px;
     text-align: justify;

@@ -468,6 +468,20 @@ input[type=submit]:hover {
     border-bottom: 1px solid #3a3a3a; 
 }
 
+#coffee-mornings {
+    padding: 2.8rem;
+    text-align: center;
+}
+
+#coffee-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */

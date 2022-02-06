@@ -357,7 +357,7 @@ input[type=submit]:hover {
 #register-more {
     clear:both;
     padding: 2.8rem;
-    height: 800px;
+    height: 1400px;
 }
 
 #donate, #volunteer, #adopt {
@@ -450,7 +450,20 @@ input[type=submit]:hover {
     #donate-text, #volunteer-text, #adopt-text{
         width: 80%;
     }
+
+    #register-more {
+        height: 1100px;
+    }
 }
+
+/*for medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    #register-more {
+        height: 1000px;
+    }
+}
+
     
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {

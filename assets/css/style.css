@@ -340,6 +340,15 @@ footer p {
     width: 100%;
 }
 
+#area-text > p {
+    line-height: 50px;
+    font-size: 120%;
+}
+
+#area-header {
+    font-size: 230%;
+    margin-bottom: 20px;
+}
 /* register.html: register form section */
 
 #register {

@@ -585,7 +585,7 @@ input[type=submit]:hover {
     #left-about, #right-about {
         width: 100%;
         float: left;
-        
+        margin: 0;
     }
 
     #right-about {
@@ -667,7 +667,8 @@ input[type=submit]:hover {
     }
 
     #about-us {
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
 }
 
     #video iframe {
@@ -686,12 +687,17 @@ input[type=submit]:hover {
         width: 80%;
     }
     #donate-content, #volunteer-content, #adopt-content {
-        width: 100%
+        width: 100%;
+        margin: 0;
+        padding: 0;
 }
 
     #donate-text, #volunteer-text, #adopt-text {
+        width: 100%;
         text-align: center;
         margin-bottom: 1rem;
+        margin-left: 0;
+        padding-left: 0;
 }
 
     #tailored-photo {

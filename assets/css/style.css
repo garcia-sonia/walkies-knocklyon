@@ -270,7 +270,7 @@ footer p {
 
 #services-header {
     font-size: 230%;
-    margin-bottom: 2.8rem;
+    padding: 2.8rem 0;
 }
 
 #services-offered ul {

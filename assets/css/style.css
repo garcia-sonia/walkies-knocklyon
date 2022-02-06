@@ -310,7 +310,7 @@ footer p {
 #tailored-text {
     float: left;
     width: 60%;
-    padding-top: 2.8rem;
+    padding-top: 5.6rem;
     padding-left: 1rem;
     line-height: 30px;
     text-align: justify;
@@ -535,7 +535,14 @@ input[type=submit]:hover {
         padding-top: 1rem;
     }
 
- 
+    #tailored-photo img {
+        width: 90%;
+    }
+
+    #tailored-text {
+        width: 80%;
+        padding-top: 2rem;
+    }
 }
     
 /* for medium screen sizes from 950px wide and down */
@@ -615,6 +622,20 @@ input[type=submit]:hover {
     #coffee-header {
         font-size: 130%;
     }
+
+    #tailored-text {
+        padding-top: 1rem;
+    }
+
+    #tailored-header {
+        font-size: 130%;
+        padding-bottom: 0.5rem;
+    }
+
+    #tailored-text > p {
+        font-size: 100%;
+    }
+
 }
 
 /* for small screen sizes from 800px wide and down */

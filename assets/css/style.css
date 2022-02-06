@@ -264,7 +264,7 @@ footer p {
 
 #services-offered {
     text-align: center;
-    padding: 2.8rem 0;
+    padding: 2.8rem;
     height: auto;
 }
 
@@ -285,7 +285,7 @@ footer p {
 /* services.html: tailored services section*/
 
 #tailored-services {
-    padding: 1rem;
+    padding: 2.8rem;
     height: auto;
 }
 
@@ -409,7 +409,7 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-/* Register.html: Regiter more section */
+/* Register.html: Register more section */
 
 #register-more {
     padding: 2.8rem;
@@ -541,7 +541,7 @@ input[type=submit]:hover {
 
     #tailored-text {
         width: 80%;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }
     
@@ -624,7 +624,7 @@ input[type=submit]:hover {
     }
 
     #tailored-text {
-        padding-top: 1rem;
+        width: 90%;
     }
 
     #tailored-header {
@@ -686,6 +686,27 @@ input[type=submit]:hover {
         margin-bottom: 2.8rem;
 }
 
+    #tailored-photo {
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    #tailored-content {
+        width: 100%;
+    }
+
+    #tailored-photo img {
+        width: 50%;
+    }
+
+    #tailored-text {
+        text-align: center;
+        margin-bottom: 2.8rem;
+        width: 100%;
+        padding-left: 0;
+}
 }
 
 @media screen and (max-width: 500px) {

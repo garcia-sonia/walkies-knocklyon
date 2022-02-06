@@ -282,8 +282,10 @@ footer p {
     line-height: 50px;
 }
 
+/* services.html: tailored services section*/
+
 #tailored-services {
-    padding: 2.8rem;
+    padding: 1rem;
     height: auto;
 }
 
@@ -331,6 +333,7 @@ footer p {
 
 #area-covered {
     clear: both;
+    padding: 2.8rem;
 }
 
 #area-covered iframe {

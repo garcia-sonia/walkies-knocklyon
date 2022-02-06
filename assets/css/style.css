@@ -682,6 +682,7 @@ input[type=submit]:hover {
         width: 95%;
         height: auto;
         padding: 1rem;
+        letter-spacing: 2px;
     }
 
     #logo {

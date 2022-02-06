@@ -675,7 +675,7 @@ input[type=submit]:hover {
 }
 
     #donate-photo img, #volunteer-photo img, #adopt-photo img {
-        width: 50%;
+        width: 80%;
     }
     #donate-content, #volunteer-content, #adopt-content {
         width: 100%
@@ -683,7 +683,7 @@ input[type=submit]:hover {
 
     #donate-text, #volunteer-text, #adopt-text {
         text-align: center;
-        margin-bottom: 2.8rem;
+        margin-bottom: 1rem;
 }
 
     #tailored-photo {
@@ -698,7 +698,7 @@ input[type=submit]:hover {
     }
 
     #tailored-photo img {
-        width: 50%;
+        width: 80%;
     }
 
     #tailored-text {
@@ -755,6 +755,10 @@ input[type=submit]:hover {
     }
 
     #donate-photo img, #volunteer-photo img, #adopt-photo img {
+        width: 100%;
+    }
+
+    #tailored-photo img {
         width: 100%;
     }
 }

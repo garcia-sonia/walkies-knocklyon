@@ -413,7 +413,7 @@ input[type=submit]:hover {
 
 #register-more {
     padding: 2.8rem;
-    height: 900px;
+    height: auto;
 }
 
 #donate, #volunteer, #adopt {
@@ -470,9 +470,15 @@ input[type=submit]:hover {
     border-bottom: 1px solid #3a3a3a; 
 }
 
+#clear {
+    clear: both
+}
+
+/* coffee mornings section: register.html */
 #coffee-mornings {
     padding: 2.8rem;
     text-align: center;
+    clear: both;
 }
 
 #coffee-header {
@@ -483,6 +489,7 @@ input[type=submit]:hover {
     font-size: 150%;
     padding-bottom: 1rem;
 }
+
 
 /* media queries */
 
@@ -517,10 +524,6 @@ input[type=submit]:hover {
 
     #services-offered {
         padding: 1rem;
-    }
-
-    #register-more {
-        height: 800px;
     }
 
     #donate img, #volunteer img, #adopt img {
@@ -602,9 +605,7 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
-    #register-more {
-        height: 600px;
-    }
+    
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
         width: 100%;

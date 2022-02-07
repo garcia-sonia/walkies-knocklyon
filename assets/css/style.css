@@ -103,15 +103,15 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: none;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     width: 350px;
-    height: 230px;
-    padding: 0.25rem;
+    height: auto;
+    padding: 1rem;
     background-color: rgba(255, 165, 0, .7);
     bottom: 1.8rem;
     right: 1.8rem;
     position: absolute;
-    border-radius: 20%;
+    border-radius: 25px;
 }
 
 /* index.html: about us section */
@@ -509,7 +509,7 @@ input[type=submit]:hover {
         bottom: 0;
         right: 0;
         font-size: 110%;
-        height: 210px;
+        height: auto;
     }
     
     #about-us {
@@ -567,7 +567,7 @@ input[type=submit]:hover {
     #cover-text {
         font-size: 100%;
         width: 310px;
-        height: 200px;
+        height: auto;
     }
 
     #about-us {

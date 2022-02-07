@@ -238,7 +238,7 @@ h1, h2 {
 
 footer hr {
     color: #3a3a3a;
-    border: 1px solid;
+    border: 0.06rem solid;
 }
 footer p {
     text-align: center;
@@ -279,7 +279,7 @@ footer p {
 
 #services-offered li {
     font-size: 120%;
-    line-height: 50px;
+    line-height: 3rem;
 }
 
 /* services.html: tailored services section*/
@@ -303,7 +303,7 @@ footer p {
 }
 
 #tailored-content {
-    width: 50%;
+    width: 3rem;
     float: right;
 }
 
@@ -312,14 +312,14 @@ footer p {
     width: 60%;
     padding-top: 5.6rem;
     padding-left: 1rem;
-    line-height: 30px;
+    line-height: 1.8rem;
     text-align: justify;
 }
 
 #tailored-header {
     font-family: Oswald, sans-serif;
     text-transform: none;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     color: #252525;
     font-size: 150%;
     padding-bottom: 1rem;
@@ -335,7 +335,7 @@ footer p {
 }
 
 #tailored-text a:hover {
-    border-bottom: 1px solid #3a3a3a; 
+    border-bottom: 0.06rem solid #3a3a3a; 
 }
 
 /* services.html: area covered section*/
@@ -350,7 +350,7 @@ footer p {
 }
 
 #area-text > p {
-    line-height: 30px;
+    line-height: 1.8rem;
     font-size: 120%;
 }
 
@@ -442,7 +442,7 @@ input[type=submit]:hover {
 #donate-header, #volunteer-header, #adopt-header {
     font-family: Oswald, sans-serif;
     text-transform: none;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     color: #252525;
     font-size: 150%;
     padding-bottom: 1rem;
@@ -460,7 +460,7 @@ input[type=submit]:hover {
     width: 60%;
     padding-top: 2rem;
     padding-left: 1rem;
-    line-height: 30px;
+    line-height: 1.8rem;
     text-align: justify;
     float: left;
 }
@@ -475,7 +475,7 @@ input[type=submit]:hover {
 }
 
 #donate a:hover, #volunteer a:hover, #adopt a:hover {
-    border-bottom: 1px solid #3a3a3a; 
+    border-bottom: 0.06rem solid #3a3a3a; 
 }
 
 #clear {
@@ -493,7 +493,7 @@ input[type=submit]:hover {
 #coffee-header {
     font-family: Oswald, sans-serif;
     text-transform: none;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     color: #252525;
     font-size: 150%;
     padding-bottom: 1rem;
@@ -559,9 +559,9 @@ input[type=submit]:hover {
         letter-spacing: 4px;
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        margin-left: 1.8rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.5rem;
     }
 
     #cover-text {
@@ -740,13 +740,13 @@ input[type=submit]:hover {
         width: 95%;
         height: auto;
         padding: 1rem;
-        letter-spacing: 2px;
+        letter-spacing: 0.1rem;
     }
 
     #logo {
         float: left;
         font-size: 130%;
-        margin-left: 10px;
+        margin-left: 0.6rem;
     }
     
     #menu {

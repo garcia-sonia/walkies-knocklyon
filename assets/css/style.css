@@ -303,14 +303,14 @@ footer p {
 }
 
 #tailored-content {
-    width: 3rem;
+    width: 50%;
     float: right;
 }
 
 #tailored-text {
     float: left;
     width: 60%;
-    padding-top: 5.6rem;
+    padding-top: 2rem;
     padding-left: 1rem;
     line-height: 1.8rem;
     text-align: justify;
@@ -759,7 +759,7 @@ input[type=submit]:hover {
     }
 
     #about-header, #benefits-header {
-        font-size: 110%;
+        font-size: 130%;
     }
 
     #left-about ul {
@@ -775,18 +775,32 @@ input[type=submit]:hover {
     }
     
     #area-header {
-        font-size: 110%;
+        font-size: 130%;
     }
 
     #services-header {
+        font-size: 130%;
+    }
+
+    #tailored-header {
         font-size: 110%;
+    }
+
+    #tailored-photo img {
+        width: 100%;
     }
 
     #donate-photo img, #volunteer-photo img, #adopt-photo img {
         width: 100%;
     }
 
-    #tailored-photo img {
-        width: 100%;
+    #donate-header, #volunteer-header, #adopt-header {
+        font-size: 110%;
     }
+
+    #coffee-header {
+        font-size: 110%;
+    }
+
+    
 }

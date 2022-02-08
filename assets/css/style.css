@@ -379,6 +379,7 @@ input[type=text], input[type=email] {
     height: 2rem;
     text-align: center;
     width: 210px;
+    border-radius: 25px;
 }
 
 #register-type {
@@ -389,6 +390,8 @@ input[type=text], input[type=email] {
     font-family: Arial, Helvetica, sans-serif;
     width: 180px;
     line-height: 30px;
+    background-color:;
+    border-radius: 25px;
 }
 
 #register-type input {
@@ -399,7 +402,8 @@ input[type=text], input[type=email] {
     height: 100px;
     width: 180px;
     margin-bottom: 2rem;
-    padding: 1rem
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 input[type=submit] {
@@ -409,12 +413,12 @@ input[type=submit] {
     background-color: #CDCDCD;
     border: 3px solid #808080;
     display: block;
+    border-radius: 25px;
 }
 
 input[type=submit]:hover {
-    background-color: blue;
-    border-color: #808080;;
-    color: #fff;
+    background-color: orange;
+    border-color: #808080;
 }
 
 /* register.html: register more section */

@@ -287,6 +287,11 @@ footer p {
 #services-more {
     padding: 2.8rem;
     height: auto;
+    background-color: #a1c9c9;
+}
+
+#tailored-services {
+    background-color: #a1c9c9;
 }
 
 #tailored-photo {
@@ -482,7 +487,7 @@ input[type=submit]:hover {
     border-bottom: 0.06rem solid #3a3a3a; 
 }
 
-#clear {
+.clear {
     clear: both
 }
 

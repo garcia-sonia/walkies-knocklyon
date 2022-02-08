@@ -352,6 +352,7 @@ footer p {
 
 #area-covered iframe {
     width: 100%;
+    padding-top: 2rem;
 }
 
 #area-text > p {

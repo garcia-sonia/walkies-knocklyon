@@ -390,7 +390,7 @@ input[type=text], input[type=email] {
     font-family: Arial, Helvetica, sans-serif;
     width: 180px;
     line-height: 30px;
-    background-color:;
+    background-color:rgba(255, 165, 0, .7);
     border-radius: 25px;
 }
 
@@ -417,7 +417,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: orange;
+    background-color: rgba(255, 165, 0, .7);
     border-color: #808080;
 }
 

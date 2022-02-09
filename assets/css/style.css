@@ -348,7 +348,8 @@ footer p {
 
 #area-covered {
     clear: both;
-    padding-top: 2.8rem;
+    padding: 2.8rem;
+    padding-bottom: 0;
 }
 
 #area-covered iframe {

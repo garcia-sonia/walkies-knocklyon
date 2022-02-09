@@ -264,13 +264,13 @@ footer p {
 
 #services-offered {
     text-align: center;
-    padding: 2.8rem 0;
+    padding: 2.8rem;
     height: auto;
 }
 
 #services-header {
     font-size: 230%;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 #services-offered ul {
@@ -502,7 +502,7 @@ input[type=submit]:hover {
     padding: 2.8rem;
     text-align: center;
     clear: both;
-    background-color: #a1c9c9;;
+    background-color: #a1c9c9;
 }
 
 #coffee-header {
@@ -538,7 +538,7 @@ input[type=submit]:hover {
     }
 
     #services-offered {
-        padding: 1rem;
+        padding: 2rem;
     }
 
     #donate img, #volunteer img, #adopt img {

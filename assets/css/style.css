@@ -522,7 +522,7 @@ input[type=submit]:hover {
     padding: 2.8rem;
     text-align: center;
     clear: both;
-    background-color: #a1c9c9;
+    background-color:rgba(255, 165, 0, .7);
 }
 
 #coffee-header {
@@ -652,6 +652,9 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
+    #outside-header {
+        font-size: 130%;
+    }
 
     #donate-text, #volunteer-text, #adopt-text {
         padding-top: 1rem;
@@ -838,5 +841,8 @@ input[type=submit]:hover {
         font-size: 110%;
     }
 
+    #outside-header {
+        font-size: 110%;
+    }
     
 }

@@ -208,11 +208,28 @@ h1, h2 {
     width: 30%;
 }
 
-/*index.html: video section*/
+/* index.html: video section */
 
 #video {
-    padding-top: 2.8rem;
+    padding: 2.8rem 0;
     text-align: center;
+}
+
+/* index.html: newsletter section */
+
+#newsletter {
+    padding: 2.8rem;
+    text-align: center;
+    background-color:rgba(255, 165, 0, .7);
+}
+
+#newsletter-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 0.25rem;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
 }
 
 /* footer */

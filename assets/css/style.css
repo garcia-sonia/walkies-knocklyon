@@ -439,6 +439,10 @@ input[type=submit]:hover {
     padding: 2.8rem;
 }
 
+#volunteer {
+    background-color: #a1c9c9;
+}
+
 #donate-photo, #volunteer-photo, #adopt-photo {
     width: 50%;
     float: left;

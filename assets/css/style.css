@@ -618,6 +618,7 @@ input[type=submit]:hover {
 
     #about-header, #benefits-header  {
         font-size: 150%;
+        padding-bottom: 1.8rem;
     }
 
     #services-header {

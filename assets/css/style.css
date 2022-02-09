@@ -125,6 +125,7 @@ h1, h2 {
 #about-us {
     clear: both;
     padding: 2.8rem 0;
+    height: auto;
 }
 
 #left-about {

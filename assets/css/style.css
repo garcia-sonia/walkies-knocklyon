@@ -354,7 +354,7 @@ footer p {
 
 #area-covered iframe {
     width: 100%;
-    padding-top: 2rem;
+    padding: 2.8rem 0;
 }
 
 #area-text > p {
@@ -366,6 +366,24 @@ footer p {
     font-size: 230%;
     margin-bottom: 20px;
 }
+
+/* services.html: outside-catchment */
+    
+#outside-catchment {
+    background-color:rgba(255, 165, 0, .7);
+    padding: 2.8rem;
+    text-align: center;
+}
+
+#outside-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 0.25rem;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
+
 
 /* register.html: register form section */
 

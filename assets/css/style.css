@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Oswald:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: none;
     letter-spacing: 0.25rem;
@@ -35,7 +36,8 @@ h1, h2 {
     letter-spacing: 0.25rem;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 4.5rem;
 }
 
@@ -60,7 +62,7 @@ h1, h2 {
 
 /* index.html: hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height: 650px;
     width: 100%;
     overflow: hidden;
@@ -68,7 +70,8 @@ h1, h2 {
     clear: both;
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -81,7 +84,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/walkies-landing.jpg') no-repeat 50% 0% / cover;
 
-/* animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -93,6 +96,7 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -133,7 +137,7 @@ h1, h2 {
     float: left;
 }
 
-#left-about ul { 
+#left-about ul {
     list-style: none;
     text-align: justify;
     margin-left: 3rem;
@@ -149,12 +153,12 @@ h1, h2 {
 }
 
 #left-about ul li a {
-        text-decoration: none;
-        color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 #left-about ul li a:hover {
-        border-bottom: 1px solid #3a3a3a; 
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #right-about {
@@ -188,7 +192,7 @@ h1, h2 {
 }
 
 
-#benefits ul { 
+#benefits ul {
     list-style: none;
     text-align: justify;
     margin-left: 3rem;
@@ -220,7 +224,7 @@ h1, h2 {
 #newsletter {
     padding: 2.8rem;
     text-align: center;
-    background-color:rgba(255, 165, 0, .7);
+    background-color: rgba(255, 165, 0, .7);
 }
 
 #newsletter-header {
@@ -238,7 +242,7 @@ h1, h2 {
 }
 
 #newsletter a:hover {
-    border-bottom: 1px solid #3a3a3a; 
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* footer */
@@ -252,7 +256,7 @@ h1, h2 {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -267,6 +271,7 @@ footer hr {
     color: #3a3a3a;
     border: 0.06rem solid;
 }
+
 footer p {
     text-align: center;
     margin: 1%;
@@ -283,7 +288,7 @@ footer p {
     width: 100%;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -357,7 +362,7 @@ footer p {
     padding-bottom: 1rem;
 }
 
-#tailored-text > p {
+#tailored-text>p {
     font-size: 120%;
 }
 
@@ -367,7 +372,7 @@ footer p {
 }
 
 #tailored-text a:hover {
-    border-bottom: 0.06rem solid #3a3a3a; 
+    border-bottom: 0.06rem solid #3a3a3a;
 }
 
 /* services.html: area covered section*/
@@ -383,7 +388,7 @@ footer p {
     padding: 2.8rem 0;
 }
 
-#area-text > p {
+#area-text>p {
     line-height: 1.8rem;
     font-size: 120%;
 }
@@ -394,9 +399,9 @@ footer p {
 }
 
 /* services.html: outside-catchment */
-    
+
 #outside-catchment {
-    background-color:rgba(255, 165, 0, .7);
+    background-color: rgba(255, 165, 0, .7);
     padding: 2.8rem;
     text-align: center;
 }
@@ -421,11 +426,13 @@ footer p {
     padding: 2.8rem;
     clear: both;
 }
+
 #register-header {
     padding-bottom: 1rem;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     margin-bottom: 1rem;
     display: block;
     height: 2rem;
@@ -458,7 +465,7 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
-    
+
     width: 210px;
     height: 30px;
     background-color: white;
@@ -480,7 +487,9 @@ input[type=submit]:hover {
     height: auto;
 }
 
-#donate, #volunteer, #adopt {
+#donate,
+#volunteer,
+#adopt {
     clear: both;
     padding: 2.8rem;
 }
@@ -489,17 +498,23 @@ input[type=submit]:hover {
     background-color: #a1c9c9;
 }
 
-#donate-photo, #volunteer-photo, #adopt-photo {
+#donate-photo,
+#volunteer-photo,
+#adopt-photo {
     width: 50%;
     float: left;
 }
 
-#donate-content, #volunteer-content, #adopt-content {
+#donate-content,
+#volunteer-content,
+#adopt-content {
     width: 50%;
     float: right;
 }
 
-#donate-header, #volunteer-header, #adopt-header {
+#donate-header,
+#volunteer-header,
+#adopt-header {
     font-family: Oswald, sans-serif;
     text-transform: none;
     letter-spacing: 0.25rem;
@@ -508,7 +523,9 @@ input[type=submit]:hover {
     padding-bottom: 1rem;
 }
 
-#donate img, #volunteer img, #adopt img {
+#donate img,
+#volunteer img,
+#adopt img {
     width: 60%;
     border-radius: 50px;
     clear: both;
@@ -516,7 +533,9 @@ input[type=submit]:hover {
     float: right;
 }
 
-#donate-text, #volunteer-text, #adopt-text {
+#donate-text,
+#volunteer-text,
+#adopt-text {
     width: 60%;
     padding-top: 2rem;
     padding-left: 1rem;
@@ -525,17 +544,23 @@ input[type=submit]:hover {
     float: left;
 }
 
-#donate-text > p, #volunteer-text > p, #adopt-text > p {
+#donate-text>p,
+#volunteer-text>p,
+#adopt-text>p {
     font-size: 120%;
 }
 
-#donate a, #volunteer a, #adopt a{
+#donate a,
+#volunteer a,
+#adopt a {
     text-decoration: none;
     color: inherit;
 }
 
-#donate a:hover, #volunteer a:hover, #adopt a:hover {
-    border-bottom: 0.06rem solid #3a3a3a; 
+#donate a:hover,
+#volunteer a:hover,
+#adopt a:hover {
+    border-bottom: 0.06rem solid #3a3a3a;
 }
 
 .clear {
@@ -548,7 +573,7 @@ input[type=submit]:hover {
     padding: 2.8rem;
     text-align: center;
     clear: both;
-    background-color:rgba(255, 165, 0, .7);
+    background-color: rgba(255, 165, 0, .7);
 }
 
 #coffee-header {
@@ -572,7 +597,7 @@ input[type=submit]:hover {
         font-size: 110%;
         height: auto;
     }
-    
+
     #about-us {
         margin: 0 auto;
     }
@@ -587,11 +612,15 @@ input[type=submit]:hover {
         padding: 2rem;
     }
 
-    #donate img, #volunteer img, #adopt img {
+    #donate img,
+    #volunteer img,
+    #adopt img {
         width: 90%;
     }
 
-    #donate-text, #volunteer-text, #adopt-text{
+    #donate-text,
+    #volunteer-text,
+    #adopt-text {
         width: 80%;
         padding-top: 1rem;
     }
@@ -605,7 +634,7 @@ input[type=submit]:hover {
         padding-top: 1rem;
     }
 }
-    
+
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -614,7 +643,7 @@ input[type=submit]:hover {
         font-size: 200%;
         margin-left: 30px;
     }
-    
+
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
@@ -635,7 +664,8 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         margin: 0;
@@ -650,18 +680,20 @@ input[type=submit]:hover {
         width: 250px;
     }
 
-    #left-about ul li { 
+    #left-about ul li {
         font-size: 100%;
     }
-    
+
     #benefits ul li {
         font-size: 100%;
     }
+
     #services-list li {
         font-size: 100%;
     }
 
-    #about-header, #benefits-header  {
+    #about-header,
+    #benefits-header {
         font-size: 150%;
         padding-bottom: 1.8rem;
     }
@@ -669,11 +701,11 @@ input[type=submit]:hover {
     #services-header {
         font-size: 150%;
     }
-    
-    #area-text > p {
+
+    #area-text>p {
         font-size: 100%;
     }
-    
+
     #area-header {
         font-size: 150%;
     }
@@ -682,16 +714,23 @@ input[type=submit]:hover {
         font-size: 130%;
     }
 
-    #donate-text, #volunteer-text, #adopt-text {
+    #donate-text,
+    #volunteer-text,
+    #adopt-text {
         padding-top: 1rem;
         width: 100%;
     }
 
-    #donate-header, #volunteer-header, #adopt-header{
+    #donate-header,
+    #volunteer-header,
+    #adopt-header {
         font-size: 130%;
         padding-bottom: 0.5rem;
     }
-    #donate-text > p, #volunteer-text > p, #adopt-text > p {
+
+    #donate-text>p,
+    #volunteer-text>p,
+    #adopt-text>p {
         font-size: 100%;
     }
 
@@ -708,21 +747,21 @@ input[type=submit]:hover {
         padding-bottom: 0.5rem;
     }
 
-    #tailored-text > p {
+    #tailored-text>p {
         font-size: 100%;
     }
 
     #newsletter-header {
         font-size: 120%;
     }
- 
-     #outside-header {
-         font-size: 120%;
-     }
- 
-     #coffee-header {
-         font-size: 120%;
-     }
+
+    #outside-header {
+        font-size: 120%;
+    }
+
+    #coffee-header {
+        font-size: 120%;
+    }
 
 }
 
@@ -733,7 +772,7 @@ input[type=submit]:hover {
     #hero-outer {
         height: 450px;
     }
-    
+
     #hero-image {
         height: 450px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
@@ -748,30 +787,39 @@ input[type=submit]:hover {
 
     #about-us {
         margin: 0 auto;
-    }   
+    }
 
     #video iframe {
         width: fit-content;
         height: auto;
     }
 
-    #donate-photo, #volunteer-photo, #adopt-photo {
+    #donate-photo,
+    #volunteer-photo,
+    #adopt-photo {
         width: 100%;
         float: left;
         display: flex;
         justify-content: center;
     }
 
-    #donate-photo img, #volunteer-photo img, #adopt-photo img {
+    #donate-photo img,
+    #volunteer-photo img,
+    #adopt-photo img {
         width: 80%;
     }
-    #donate-content, #volunteer-content, #adopt-content {
+
+    #donate-content,
+    #volunteer-content,
+    #adopt-content {
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-    #donate-text, #volunteer-text, #adopt-text {
+    #donate-text,
+    #volunteer-text,
+    #adopt-text {
         width: 100%;
         text-align: center;
         margin-bottom: 1rem;
@@ -807,11 +855,12 @@ input[type=submit]:hover {
     #hero-outer {
         height: 300px;
     }
+
     #hero-image {
         height: 300px;
         background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
     }
-    
+
     #cover-text {
         font-size: 70%;
         width: 95%;
@@ -825,7 +874,7 @@ input[type=submit]:hover {
         font-size: 130%;
         margin-left: 0.6rem;
     }
-    
+
     #menu {
         font-size: 100%;
         letter-spacing: normal;
@@ -835,7 +884,8 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #about-header, #benefits-header {
+    #about-header,
+    #benefits-header {
         font-size: 130%;
     }
 
@@ -847,10 +897,10 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
-    #area-text > p {
+    #area-text>p {
         font-size: 100%;
     }
-    
+
     #area-header {
         font-size: 130%;
     }
@@ -867,17 +917,21 @@ input[type=submit]:hover {
         width: 100%;
     }
 
-    #donate-photo img, #volunteer-photo img, #adopt-photo img {
+    #donate-photo img,
+    #volunteer-photo img,
+    #adopt-photo img {
         width: 100%;
     }
 
-    #donate-header, #volunteer-header, #adopt-header {
+    #donate-header,
+    #volunteer-header,
+    #adopt-header {
         font-size: 110%;
     }
 
-   #newsletter-header {
-       font-size: 110%;
-   }
+    #newsletter-header {
+        font-size: 110%;
+    }
 
     #outside-header {
         font-size: 110%;
@@ -886,5 +940,5 @@ input[type=submit]:hover {
     #coffee-header {
         font-size: 110%;
     }
-    
+
 }

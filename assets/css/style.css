@@ -82,7 +82,7 @@ h2 {
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url('../images/walkies-landing.jpg') no-repeat 50% 0% / cover;
+    background: url('../images/walkies-landing-resized.jpg') no-repeat 50% 0% / cover;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -419,7 +419,7 @@ footer p {
 /* register.html: register form section */
 
 #register {
-    background-image: url('../images/register-form.jpg');
+    background-image: url('../images/register-dog-resized.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -775,7 +775,7 @@ input[type=submit]:hover {
 
     #hero-image {
         height: 450px;
-        background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
+        background: url('../images/walkies-landing-resized.jpg') no-repeat 30% 0% / cover;
     }
 
     #cover-text {
@@ -858,7 +858,7 @@ input[type=submit]:hover {
 
     #hero-image {
         height: 300px;
-        background: url('../images/walkies-landing.jpg') no-repeat 30% 0% / cover;
+        background: url('../images/walkies-landing-resized.jpg') no-repeat 30% 0% / cover;
     }
 
     #cover-text {

@@ -712,6 +712,18 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
+    #newsletter-header {
+        font-size: 120%;
+    }
+ 
+     #outside-header {
+         font-size: 120%;
+     }
+ 
+     #coffee-header {
+         font-size: 120%;
+     }
+
 }
 
 /* for small screen sizes from 800px wide and down */
@@ -863,11 +875,15 @@ input[type=submit]:hover {
         font-size: 110%;
     }
 
-    #coffee-header {
+   #newsletter-header {
+       font-size: 110%;
+   }
+
+    #outside-header {
         font-size: 110%;
     }
 
-    #outside-header {
+    #coffee-header {
         font-size: 110%;
     }
     

@@ -219,6 +219,14 @@ h2 {
     text-align: center;
 }
 
+#video-header {
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    letter-spacing: 0.25rem;
+    color: #252525;
+    font-size: 150%;
+    padding-bottom: 1rem;
+}
 /* index.html: newsletter section */
 
 #newsletter {
@@ -751,6 +759,10 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
+    #video-header {
+        font-size: 120%;
+    }
+
     #newsletter-header {
         font-size: 120%;
     }
@@ -928,6 +940,10 @@ input[type=submit]:hover {
         font-size: 110%;
     }
 
+    #video-header {
+        font-size: 110%;
+    }
+    
     #newsletter-header {
         font-size: 110%;
     }

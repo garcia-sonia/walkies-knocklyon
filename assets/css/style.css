@@ -920,6 +920,10 @@ input[type=submit]:hover {
         font-size: 130%;
     }
 
+    #show-or-not{
+        display: none;
+    } 
+
     #tailored-header {
         font-size: 110%;
     }

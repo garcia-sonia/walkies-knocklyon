@@ -227,6 +227,7 @@ h2 {
     font-size: 150%;
     padding-bottom: 1rem;
 }
+
 /* index.html: newsletter section */
 
 #newsletter {
@@ -311,6 +312,11 @@ footer p {
 #services-header {
     font-size: 230%;
     padding: 1rem 0;
+}
+
+#silhouette1,
+#silhouette2 {
+    width: 3rem;
 }
 
 #services-offered ul {
@@ -920,9 +926,9 @@ input[type=submit]:hover {
         font-size: 130%;
     }
 
-    #show-or-not{
+    #silhouette2 {
         display: none;
-    } 
+    }
 
     #tailored-header {
         font-size: 110%;
@@ -947,7 +953,7 @@ input[type=submit]:hover {
     #video-header {
         font-size: 110%;
     }
-    
+
     #newsletter-header {
         font-size: 110%;
     }

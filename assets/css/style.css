@@ -286,9 +286,9 @@ footer p {
     margin: 1%;
 }
 
-/* services.html: gallery */
+/* services.html: our services */
 
-#photos {
+#gallery {
     clear: both;
     line-height: 0;
     column-count: 2;
@@ -297,11 +297,9 @@ footer p {
     width: 100%;
 }
 
-#photos>img {
+#gallery>img {
     width: 100%;
 }
-
-/* services.html: services offered section */
 
 #services-offered {
     text-align: center;

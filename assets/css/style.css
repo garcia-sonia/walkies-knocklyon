@@ -153,8 +153,8 @@ h2 {
 }
 
 #left-about ul li a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: solid;
+    color: #ffa500;
 }
 
 #left-about ul li a:hover {
@@ -246,8 +246,8 @@ h2 {
 }
 
 #newsletter a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: solid;
+    color: #fff;
 }
 
 #newsletter a:hover {
@@ -379,8 +379,8 @@ footer p {
 }
 
 #tailored-text a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: solid;
+    color: #fff;
 }
 
 #tailored-text a:hover {
@@ -563,10 +563,14 @@ input[type=submit]:hover {
 }
 
 #donate a,
-#volunteer a,
 #adopt a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: solid;
+    color: #ffa500;
+}
+
+#volunteer a {
+    text-decoration: solid;
+    color: #fff;
 }
 
 #donate a:hover,

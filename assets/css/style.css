@@ -177,7 +177,6 @@ h2 {
 
 /* index.html: benefits section */
 
-
 #benefits {
     background: #a1c9c9;
     padding: 2.8rem 0;
@@ -190,7 +189,6 @@ h2 {
     padding: 0 2.8rem 2.8rem 2.8rem;
     text-align: center;
 }
-
 
 #benefits ul {
     list-style: none;
@@ -628,6 +626,15 @@ input[type=submit]:hover {
         padding: 2rem;
     }
 
+    #tailored-photo img {
+        width: 90%;
+    }
+
+    #tailored-text {
+        width: 80%;
+        padding-top: 1rem;
+    }
+
     #donate img,
     #volunteer img,
     #adopt img {
@@ -637,15 +644,6 @@ input[type=submit]:hover {
     #donate-text,
     #volunteer-text,
     #adopt-text {
-        width: 80%;
-        padding-top: 1rem;
-    }
-
-    #tailored-photo img {
-        width: 90%;
-    }
-
-    #tailored-text {
         width: 80%;
         padding-top: 1rem;
     }
@@ -704,18 +702,39 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
-    #services-list li {
-        font-size: 100%;
-    }
-
     #about-header,
     #benefits-header {
         font-size: 150%;
         padding-bottom: 1.8rem;
     }
 
+    #video-header {
+        font-size: 120%;
+    }
+
+    #newsletter-header {
+        font-size: 120%;
+    }
+
+    #services-list li {
+        font-size: 100%;
+    }
+
     #services-header {
         font-size: 150%;
+    }
+
+    #tailored-text {
+        width: 90%;
+    }
+
+    #tailored-header {
+        font-size: 130%;
+        padding-bottom: 0.5rem;
+    }
+
+    #tailored-text>p {
+        font-size: 100%;
     }
 
     #area-text>p {
@@ -726,8 +745,8 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
-    #outside-header {
-        font-size: 130%;
+     #outside-header {
+        font-size: 120%;
     }
 
     #donate-text,
@@ -751,38 +770,8 @@ input[type=submit]:hover {
     }
 
     #coffee-header {
-        font-size: 130%;
-    }
-
-    #tailored-text {
-        width: 90%;
-    }
-
-    #tailored-header {
-        font-size: 130%;
-        padding-bottom: 0.5rem;
-    }
-
-    #tailored-text>p {
-        font-size: 100%;
-    }
-
-    #video-header {
         font-size: 120%;
     }
-
-    #newsletter-header {
-        font-size: 120%;
-    }
-
-    #outside-header {
-        font-size: 120%;
-    }
-
-    #coffee-header {
-        font-size: 120%;
-    }
-
 }
 
 /* for small screen sizes from 800px wide and down */
@@ -805,13 +794,35 @@ input[type=submit]:hover {
         padding: 1rem;
     }
 
+    #video iframe {
+        width: fit-content;
+        height: auto;
+    }
+
     #about-us {
         margin: 0 auto;
     }
 
-    #video iframe {
-        width: fit-content;
-        height: auto;
+    #tailored-photo {
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    #tailored-content {
+        width: 100%;
+    }
+
+    #tailored-photo img {
+        width: 80%;
+    }
+
+    #tailored-text {
+        text-align: center;
+        margin-bottom: 2.8rem;
+        width: 100%;
+        padding-left: 0;
     }
 
     #donate-photo,
@@ -844,28 +855,6 @@ input[type=submit]:hover {
         text-align: center;
         margin-bottom: 1rem;
         margin-left: 0;
-        padding-left: 0;
-    }
-
-    #tailored-photo {
-        width: 100%;
-        float: left;
-        display: flex;
-        justify-content: center;
-    }
-
-    #tailored-content {
-        width: 100%;
-    }
-
-    #tailored-photo img {
-        width: 80%;
-    }
-
-    #tailored-text {
-        text-align: center;
-        margin-bottom: 2.8rem;
-        width: 100%;
         padding-left: 0;
     }
 }
@@ -916,12 +905,12 @@ input[type=submit]:hover {
         font-size: 100%;
     }
 
-    #area-text>p {
-        font-size: 100%;
+    #video-header {
+        font-size: 110%;
     }
 
-    #area-header {
-        font-size: 130%;
+    #newsletter-header {
+        font-size: 110%;
     }
 
     #services-header {
@@ -940,6 +929,18 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    #area-text>p {
+        font-size: 100%;
+    }
+
+    #area-header {
+        font-size: 130%;
+    }
+
+    #outside-header {
+        font-size: 110%;
+    }
+
     #donate-photo img,
     #volunteer-photo img,
     #adopt-photo img {
@@ -949,18 +950,6 @@ input[type=submit]:hover {
     #donate-header,
     #volunteer-header,
     #adopt-header {
-        font-size: 110%;
-    }
-
-    #video-header {
-        font-size: 110%;
-    }
-
-    #newsletter-header {
-        font-size: 110%;
-    }
-
-    #outside-header {
         font-size: 110%;
     }
 

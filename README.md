@@ -14,6 +14,9 @@ The WALKIES - Knocklyon logo features at the top left side of the screen in soli
 
 ### Navigation bar
 Featured on all three pages of the website, the navigation bar is placed aligned with the WALKIES logo and on the opposite side of the screen for desktop and laptop formats. The bar is then pushed down to a left side position, placed just under the logo, for smaller screens.
+The navigation bar links to the Home, Services and Register pages and is identical in all three pages.
+This section allows users to navigate from page to page within the website easily without needing to revert back to previous pages using the back button.
+The active page appears underlined on the navigation bar for easy identification.
 
 ![Logo and navigation bar for bigger screens](docs/images/Logo_and_navbar_Walkies.PNG)
 

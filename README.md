@@ -1,4 +1,4 @@
-#WALKIES - Knocklyon
+# WALKIES - Knocklyon
 
 WALKIES – Knocklyon is a registered charity run by volunteers to support the Senior neighbours of Knocklyon with their dog walking and pet care needs. Their office is based at the Leaf community centre and the catchment area for their services is a 5km radius around the heart of Knocklyon.
 WALKIES – Knocklyon was founded on the belief that dog ownership provides great support and loving companionship to seniors, relieving feelings of loneliness and that dogs also provide many other health benefits to seniors like reducing stress, lowering blood pressure and increase social and physical interaction.
@@ -7,12 +7,16 @@ This website is structured in three different pages: Home, Our Services and Regi
 
 ![Mockup screenshots showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats](docs/images/Mockup_responsive_design_walkies.PNG)
 
-##Features
+## Features
 
-Logo 
+### Logo 
 The WALKIES - Knocklyon logo features at the top left side of the screen in solid black over a white background and includes a font awesome paw icon. The font used is Oswald, sans serif and the size starts with 280% for bigger screens down to 130% for smaller screens. The logo has a purposely uncomplicated design and is easy to read as this is not a commercial website but a charity's website and the target audience are seniors looking for a service. The logo also includes the location of this group, Knocklyon, as this is a local volunteer group targetting senior neighbours and volunteers of this specific neighbourhood.
 
-Navigation bar
+### Navigation bar
 Featured on all three pages of the website, the navigation bar is placed aligned with the WALKIES logo and on the opposite side of the screen for desktop and laptop formats. The bar is then pushed down to a left side position, placed just under the logo, for smaller screens.
 
+![Logo and navigation bar for bigger screens](docs/images/Logo_and_navbar_Walkies.PNG)
 
+### The Landing page image
+
+### About us section

@@ -158,11 +158,25 @@ Solution: I had to keep looking until I found a suitable image which transmits w
 
 Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
 Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
-Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section. I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping.
+Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
+
+Intended outcome: Hide one of the sihouette icons part of the Our Services header in screens 500px and under.
+Bug: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
+Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
+
+
+## Unfixed issues
+
+Intended outcome: Have a high Best Practices score in all three pages of the website.
+Bug: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to the YouTube iframe used in index.html as the Best Practices score went up to 100 if the video section was commented out.
+Fix: I asked my fellow students and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website.
+
+
 
 ## Deployment
 
 ## Credits
 https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height
 
+https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml
 

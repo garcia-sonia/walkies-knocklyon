@@ -79,5 +79,20 @@ This is the section placed just under the main services list and its goal is to 
 
 ![Screenshot of Tailored services section](docs/images/tailored_services_walkies.PNG)
 
+### Our Services page: Area covered
+
+The Area covered section includes a Google maps iframe with Knocklyon with a red pin placed right in the centre of Knokclyon.
+This section also includes a mention regarding the radius of the catchment area.
+
+![Screenshot of Area covered](docs/images/area_covered_walkies.PNG)
+
+### Our Services page: Outside of catchment area announcement box
+
+Following the same layout as the other two pages in the website, the Our Services page ends with an announcement box with an orange background placed just above the footer.
+This section informs seniors from outside the catchment area that the charity will strive to help them connect with their local help groups.
+
+![Screenshot of the Outside of catchment area annoncement box](docs/images/out_of_area_walkies.PNG)
+
+
 
 

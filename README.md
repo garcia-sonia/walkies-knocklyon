@@ -160,6 +160,10 @@ Intended outcome: Clear visibility of links accross the website.
 Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (eg. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
 Fix: Using the same color palette of the website I used a different font color (white and orange) depending on the background color (white over orange and green and orange over white).
 
+Intended outcome: Center the About us section image in its div
+Bug: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
+Fix: I found the answer in the "Love Running" project provided by the Code Institue and achieved the desired result by setting the margin: 0 auto.
+
 Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
 Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
 Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
@@ -196,4 +200,4 @@ https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life
 
 https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm
 
-
+Love Running project. 

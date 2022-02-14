@@ -49,4 +49,19 @@ The February top pick video is a YouTube video called "10 Benefits for seniors o
 
 ![Screenshot of February top pick video](docs/images/video_walkies.PNG)
 
-### 
+### Newsletter announcement box 
+
+There is an announcemnt box with an orange background at the bottom of every page of this website to bring some consistentcy to the site as a whole.
+The Home page announcement concerns the new newsletter which will be launched in March.
+This section also includes a direct link to the register form in the Register page.
+
+![Screenshot of Newsletter announcement box](docs/images/newsletter_walkies.PNG)
+
+### Footer
+
+The Footer section is the same accross all three pages in the website adding to the feeling of consistency.
+This section includes the Registered Charity number, physical address, phone number and email address. The senior target audience is more likely to call or send an email rather than than using social media. 
+This section also includes links to all the relevant social media pages for WALKIES - Knocklyon. The social media links will be valuable for some of the seniors who use social media, for other family members and carers and for volunteers.
+
+![Screenshot of Footer](docs/images/footer_walkies.PNG)
+

@@ -65,3 +65,19 @@ This section also includes links to all the relevant social media pages for WALK
 
 ![Screenshot of Footer](docs/images/footer_walkies.PNG)
 
+### Our Services page: Services section
+
+This is the first section in the Our Services page and includes a photo gallery picturing some of the services offered.
+It also includes a list with the main services offered by the charity.
+
+![Screenshot of Services gallery](docs/images/our_services_gallery_walkies.PNG)
+![Screenshot of Services list](docs/images/our_services_list_walkies.PNG)
+
+### Our Services page: Tailored services
+
+This is the section placed just under the main services list and its goal is to make a point about the flexibility of the services offered and to encourage seniors with different needs to get in touch. The header of this section is a h3 as it can be considered as an add-up to the services section above which has a h2 header.
+
+![Screenshot of Tailored services section](docs/images/tailored_services_walkies.PNG)
+
+
+

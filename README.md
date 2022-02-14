@@ -18,7 +18,7 @@ The navigation bar links to the Home, Services and Register pages and is identic
 This section allows users to navigate from page to page within the website easily without needing to revert back to previous pages using the back button.
 The active page appears underlined on the navigation bar for easy identification.
 
-![Logo and navigation bar for bigger screens](docs/images/logo_and_navbar_walkies.PNG)
+![Screenshot of Logo and navigation bar for bigger screens](docs/images/logo_and_navbar_walkies.PNG)
 
 ### The Landing page image
 
@@ -26,6 +26,27 @@ The landing page image pictures a senior lady hugging a beagle dog portraying ex
 There is a zoom effect on the landing image every time the user clicks on the Home link of the navigation bar or on the actual logo. 
 An orange text box features at the bottom right corner of the landing image with the slogan of the charity "HAPPY DOGS, HAPPY OWNERS" and also reinforces the purpose and the target audience of the website.
 
-![Landing page image](docs/images/landing_image_walkies.PNG)
+![Screenshot of Landing page image](docs/images/landing_image_walkies.PNG)
 
 ### About us section
+
+The About us section introduces WALKIES - Knoclyon, its nature, its purpose, the target audience and also gives an overview of the type of services offered.
+This section also includes a direct link to the register form available in the Register page.
+
+![Screenshot of About us section](docs/images/about_us_walkies.PNG)
+
+### The Benefits of Dogs for Seniors
+
+The Benefits section includes a list of the main benefits of dog ownership for seniors in terms of mental and also physical health.
+This section also includes three pictures of seniors spending time with their dogs.
+
+![Screenshot of The Benefits of Dogs for Seniors section](docs/images/benefits_dogs_walkies.PNG)
+
+### Monthly top pick video (Watch our top pick February video!)
+
+This section includes a relevant monthly top pick video and the idea is that it will be updated monthly by the charity to add a bit of fun and novelty to the Home page.
+The February top pick video is a YouTube video called "10 Benefits for seniors owning a pet".
+
+![Screenshot of February top pick video](docs/images/video_walkies.PNG)
+
+### 

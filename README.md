@@ -142,11 +142,12 @@ Finally another future project would be the creation of a Resources page to incl
 
 ## Testing
 
-### Manual testing
+### Manual Testing
 I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility.
 I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
+I asked a group of friends and relatives to test the functionality of the website on their devices, to check every link, to complete the register form, and to also check for spelling mistakes, etc.
 
-### Issues, Bugs and fixes
+### Issues, Bugs and Fixes
 
 Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
 Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
@@ -154,7 +155,7 @@ Solution: I selected the four most relevant photos and reduced the size and heig
 
 Intended outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
 Issue: I was only able to find images of seniors with dogs which format was not suitable for the elongated hero image format that I wanted to achieve so I settled for a photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of WALKIES - Knocklyon and how it aims to helps seniors.
-Solution: I had to keep looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
+Solution: I kept looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
 
 Intended outcome: Clear visibility of links accross the website.
 Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (eg. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
@@ -164,6 +165,11 @@ Intended outcome: Center the About us section image in its div
 Bug: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
 Fix: I found the answer in the "Love Running" project provided by the Code Institue and achieved the desired result by setting the margin: 0 auto.
 
+Intended outcome: Website elements optimised scaling depeding on browser's settings.
+Issue: Some of the feedback I received from my mentor was to avoid the use of pixels as a unit as much as possible as rem allows for optimised scalability depending on a user's browser settings.
+Solution: I converted most of the pixels into rem measures with some exceptions like image sizes.
+
+
 Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
 Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
 Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
@@ -172,8 +178,26 @@ Intended outcome: Hide one of the sihouette icons part of the Our Services heade
 Bug: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
 Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
 
+### Post Development Testing
 
-## Unfixed issues
+HTML Validator: https://validator.w3.org/nu/
+
+Issue found: Stray end of div in register.html
+Solution: Remove stray end of div
+
+Issue found: The services gallery section needed a header (yellow warning)
+Solution: I turned the services gallery and the services list into two divs instead of sections and I then placed them inside the same secion called Services which has a h2 header.
+
+CSS Validator: https://jigsaw.w3.org/css-validator/
+
+Lighthouse Score
+
+
+
+
+Give label volunteer in register form a new id volunteer-reg as the id volunteer was not unique as showed in lighthouse accessibility results
+
+### Unfixed issues
 
 Intended outcome: Have a high Best Practices score in all three pages of the website.
 Bug: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to the YouTube iframe used in index.html as the Best Practices score went up to 100 if the video section was commented out.

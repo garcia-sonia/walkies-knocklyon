@@ -132,3 +132,9 @@ The Volunteer and Adopt sub-sections both include direct links to the register f
 Following the same structure accross the website, the last section of the Register page, just above the footer, is an orange announcement box informing users that coffee mornings will restart soon.
 
 ![Screenshot of Coffe mornings announcement box](docs/images/coffe_mornings_walkies.PNG)
+
+### Features to implement in the future
+
+Add the WALKIES network develops in Dublin and nationally, a future improvement could be adding a section with links to the charity's partner branches in the register section. 
+As the project of the Newsletter develops, an idea would be to create a fourth page called News to feature all the newsletters published so far and including the testimonials from seniors and volunteers.
+Finally another future project would be the creation of a Resources page to include links to interesting articles and websites regarding pet care, best pets for seniors, information about local groomers, vets, or even pet-friendly care homes, to name a few.

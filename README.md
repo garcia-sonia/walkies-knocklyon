@@ -138,3 +138,22 @@ Following the same structure accross the website, the last section of the Regist
 Add the WALKIES network develops in Dublin and nationally, a future improvement could be adding a section with links to the charity's partner branches in the register section. 
 As the project of the Newsletter develops, an idea would be to create a fourth page called News to feature all the newsletters published so far and including the testimonials from seniors and volunteers.
 Finally another future project would be the creation of a Resources page to include links to interesting articles and websites regarding pet care, best pets for seniors, information about local groomers, vets, or even pet-friendly care homes, to name a few.
+
+## Testing
+
+### Manual testing
+I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility.
+I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
+
+### Bugs and fixes
+
+Intended Outcome: 
+
+Bug:
+Solution:
+
+## Deployment
+
+## Credits
+
+

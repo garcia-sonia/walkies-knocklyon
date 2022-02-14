@@ -152,9 +152,13 @@ Intended Outcome: A balanced Services section with a list of services offered an
 Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
 Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section but the Services list is essential for the target audience so this brings a more balanced viewing / reading of this section.
 
-Intended Outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
+Intended outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
 Issue: I was only able to find images of seniors with dogs which format was not suitable for the elongated hero image format that I wanted to achieve so I settled for a photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of WALKIES - Knocklyon and how it aims to helps seniors.
 Solution: I had to keep looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
+
+Intended outcome: Clear visibility of links accross the website.
+Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (eg. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
+Fix: Using the same color palette of the website I used a different font color (white and orange) depending on the background color (white over orange and green and orange over white).
 
 Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
 Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
@@ -179,4 +183,17 @@ Fix: I asked my fellow students and one of the mentors mentioned that this was a
 https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height
 
 https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml
+
+https://www.petsfortheelderly.org/our-partners/participating-shelters.php
+
+https://www.dspca.ie/
+
+https://cinnamon.org.uk/home/
+
+https://homecareassistance.com/blog/benefits-of-pets-for-seniors
+
+https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life-benefits-photo.html#slide3
+
+https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm
+
 

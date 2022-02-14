@@ -15,8 +15,9 @@ This website is structured in three different pages: Home, Our Services and Regi
 ## Site consistency
 
 The consistency of the website is achieved through the regular use of the same header and footer accross all pages.
-Other recurrent features are the use of round edged images accross all pages, the regular use of solid font awesome icons and a clearly defined background color palette including white, orange and a soft shade of green. 
-Fonts are also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif in headers. Font colors are mainly black, but also white and orange depending on the background color or to highligt links accross the site.
+Other recurrent features are the use of round edged images accross all pages, the regular use of solid font awesome icons and a clearly defined background color palette composed of white, orange and a soft shade of green.  
+Fonts are easy to read for the target audience and also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colors are mainly black, but the sit also uses the two complementary colors white and orange depending on the background color or to highligt links accross the site.
+The simplicity of the design, easy readability and straightforward uncomplicated titles and content are adequate for the nature of this website and its target audience.
 
 ![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats](docs/images/mockup_responsive_design_walkies.PNG)
 
@@ -135,7 +136,7 @@ Following the same structure accross the website, the last section of the Regist
 
 ### Features to implement in the future
 
-Add the WALKIES network develops in Dublin and nationally, a future improvement could be adding a section with links to the charity's partner branches in the register section. 
+As the WALKIES network develops in Dublin and nationally, a future improvement could be adding a section with links to the charity's partner branches in the register section. 
 As the project of the Newsletter develops, an idea would be to create a fourth page called News to feature all the newsletters published so far and including the testimonials from seniors and volunteers.
 Finally another future project would be the creation of a Resources page to include links to interesting articles and websites regarding pet care, best pets for seniors, information about local groomers, vets, or even pet-friendly care homes, to name a few.
 
@@ -145,15 +146,23 @@ Finally another future project would be the creation of a Resources page to incl
 I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility.
 I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
 
-### Bugs and fixes
+### Issues, Bugs and fixes
 
-Intended Outcome: 
+Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
+Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
+Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section but the Services list is essential for the target audience so this brings a more balanced viewing / reading of this section.
 
-Bug:
-Solution:
+Intended Outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
+Issue: I was only able to find images of seniors with dogs which format was not suitable for the elongated hero image format that I wanted to achieve so I settled for a photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of WALKIES - Knocklyon and how it aims to helps seniors.
+Solution: I had to keep looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
+
+Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
+Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
+Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section. I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping.
 
 ## Deployment
 
 ## Credits
+https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height
 
 

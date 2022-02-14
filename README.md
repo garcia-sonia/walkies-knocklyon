@@ -20,7 +20,7 @@ The active page appears underlined on the navigation bar for easy identification
 
 ![Screenshot of Logo and navigation bar for bigger screens](docs/images/logo_and_navbar_walkies.PNG)
 
-### The Landing page image
+### Home page: The Landing page image
 
 The landing page image pictures a senior lady hugging a beagle dog portraying exactly what this website is all about.
 There is a zoom effect on the landing image every time the user clicks on the Home link of the navigation bar or on the actual logo. 
@@ -28,28 +28,28 @@ An orange text box features at the bottom right corner of the landing image with
 
 ![Screenshot of Landing page image](docs/images/landing_image_walkies.PNG)
 
-### About us section
+### Home page: About us section
 
 The About us section introduces WALKIES - Knoclyon, its nature, its purpose, the target audience and also gives an overview of the type of services offered.
 This section also includes a direct link to the register form available in the Register page.
 
 ![Screenshot of About us section](docs/images/about_us_walkies.PNG)
 
-### The Benefits of Dogs for Seniors
+### Home page: The Benefits of Dogs for Seniors
 
 The Benefits section includes a list of the main benefits of dog ownership for seniors in terms of mental and also physical health.
 This section also includes three pictures of seniors spending time with their dogs.
 
 ![Screenshot of The Benefits of Dogs for Seniors section](docs/images/benefits_dogs_walkies.PNG)
 
-### Monthly top pick video (Watch our top pick February video!)
+### Home page: Monthly top pick video (Watch our top pick February video!)
 
 This section includes a relevant monthly top pick video and the idea is that it will be updated monthly by the charity to add a bit of fun and novelty to the Home page.
 The February top pick video is a YouTube video called "10 Benefits for seniors owning a pet".
 
 ![Screenshot of February top pick video](docs/images/video_walkies.PNG)
 
-### Newsletter announcement box 
+### Home page: Newsletter announcement box 
 
 There is an announcemnt box with an orange background at the bottom of every page of this website to bring some consistentcy to the site as a whole.
 The Home page announcement concerns the new newsletter which will be launched in March.
@@ -93,6 +93,26 @@ This section informs seniors from outside the catchment area that the charity wi
 
 ![Screenshot of the Outside of catchment area annoncement box](docs/images/out_of_area_walkies.PNG)
 
+### Register page: Register form 
 
+The Register form allows users to register. Users will have to select a specific radio button depending if they are seniors looking to use the services or if they wish to regitser as volunteers.
+Users will be asked to enter their first name, last name, and email address which are all required fields.
+Users can also enter any additional information via a free text box.
+The form is placed on the left side of the screen over a background image of a Collie dog being lead walked.
+The form uses a post method and data is sent to the Code Institute's form dump URL.
+
+![Screenshot of the Register form](docs/images/register_walkies.PNG)
+
+
+### Register page: Register more section, Donate, Voulunteer, and Adopt.
+
+This section is placed just under the register form and contains three sub-sections, Donate, Volunteer and Adopt.
+This section aims to provide further information to users highlithing the fact that donations and volunteers are critical for the running of the charity and also presenting the Adoption service as an option for seniors who would do not currently own a dog and would still like to register.
+The Adotp sub-section includes a link to a relevant funding page.
+The Volunteer and Adopt sub-sections both include direct links to the register form above.
+
+![Screenshot of Donate sub-section](docs/images/donate_walkies.PNG)
+![Screenshot of Volunteer sub-section](docs/images/volunteer_walkies.PNG)
+![Screenshot of Adopt sub-section](docs/images/adopt_walkies.PNG)
 
 

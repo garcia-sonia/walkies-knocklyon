@@ -103,7 +103,6 @@ The form uses a post method and data is sent to the Code Institute's form dump U
 
 ![Screenshot of the Register form](docs/images/register_walkies.PNG)
 
-
 ### Register page: Register more section, Donate, Voulunteer, and Adopt.
 
 This section is placed just under the register form and contains three sub-sections, Donate, Volunteer and Adopt.
@@ -115,4 +114,8 @@ The Volunteer and Adopt sub-sections both include direct links to the register f
 ![Screenshot of Volunteer sub-section](docs/images/volunteer_walkies.PNG)
 ![Screenshot of Adopt sub-section](docs/images/adopt_walkies.PNG)
 
+### Register page: Coffee mornings announcement box
 
+Following the same structure accross the website, the last section of the Register page, just above the footer, is an orange announcement box informing users that coffee mornings will restart soon.
+
+![Screenshot of Coffe mornings announcement box](docs/images/coffe_mornings_walkies.PNG)

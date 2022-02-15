@@ -293,12 +293,14 @@ You can find the live site via the following URL - [Walkies Knocklyon](https://g
 
 ### Media
 
-Senior5 [Pexels.com - Photo by Cottonbro](https://www.pexels.com/photo/smiling-elderly-woman-holding-her-pet-5961937/)
+Senior3[Pexels.com - Photo by Cottonbro](https://www.pexels.com/photo/smiling-elderly-woman-holding-her-pet-5961937/)
 Dog-walker-275  [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/a-woman-walking-a-group-of-dogs-7210537/)
 Training-275 [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/woman-looking-at-dog-running-through-playing-tunnel-7210258/)
 Vet-275[Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-crew-neck-t-shirt-holding-white-and-brown-short-coated-medium-sized-dog-7474856/)
 volunteer-girl [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/a-woman-sitting-on-the-floor-7474086/)
 register-got[Pexels.com - Photo by lum3n](https://www.pexels.com/photo/person-holding-pet-dog-leash-while-standing-on-concrete-road-237692/)
+landing_image_walkies[iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
+senior5[Pixabay - Photo by JosepMonter](https://pixabay.com/photos/men-old-man-dog-love-person-2126859/)
 
 
 

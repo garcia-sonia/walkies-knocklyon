@@ -157,7 +157,7 @@ As well as dog walking services all year round or just during the winter months,
 - I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
 - I asked a group of friends and relatives to test the functionality of the website on their devices, to check every link, to complete the register form, and to also check for spelling mistakes, etc.
 
-### Issues, Bugs and Fixes
+### Issues and Fixes
 
 1. Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
    - Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
@@ -172,7 +172,7 @@ As well as dog walking services all year round or just during the winter months,
   - Fix: Using the same color palette of the website I used a different font color (white and orange) depending on the background color (white over orange and green and orange over white).
 
 4. Intended outcome: Center the About us section image in its div
-  - Bug: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
+  - Issue: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
   - Fix: I found the answer in the "Love Running" project provided by the Code Institue and achieved the desired result by setting the margin: 0 auto.
 
 5. Intended outcome: Website elements optimised scaling depeding on browser's settings.
@@ -180,12 +180,28 @@ As well as dog walking services all year round or just during the winter months,
   - Solution: I converted most of the pixels into rem measures with some exceptions like image sizes.
 
 6. Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
-  - Bug: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
+  - Issue: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
   - Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
 
 7. Intended outcome: Hide one of the sihouette icons part of the Our Services header in screens 500px and under.
-  - Bug: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
+  - Issue: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
   - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
+
+8. Intended outcome: Have a high Best Practices score in all three pages.
+   - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
+   - Fix: I seeked advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions. 
+
+9. Intended outcome: Achieve  high Performance score in Lighthouse for all screen sizes.
+   - Issue: When first testing in Lighthouse my performance score was over 90 for desktop but went down considerably when testing for mobile sizes.
+   - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com
+
+10. - Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
+      - Issue: As realised testing with Lighthouse, the "volunteer" id was not unique as I had used it twice in register.html.
+      - Fix: I gave the label in the register form a new "volunteer-reg" id.
+
+11. - Intended outcome: Achieve higher Accessibility score in Lightouse for the Services page.
+      - Issue: According to the Lightouse tool the accessibility score for this page is 93 because there is a direct link to the register page from the tailored-services section and its hypertext has a white font color over a green background.
+      - Fix: I decided to leave the font color untouched as it is part of the general color scheme and palette of the website and this specific hypertext is composed by only two words (Register here.) so it will not affect the general accessibility of the page and it plays its purpose being displayed in a different font color than the rest of the text in this section as it is highlighted. I also asked friends and family and the feedback was that this hypertex displays well enough even in mobile screens. A 93 score is an ok score to keep taken all of this into account.
 
 
 ### Post Development Testing
@@ -212,18 +228,42 @@ As well as dog walking services all year round or just during the winter months,
      
 ### Lighthouse Score
 
+#### Test conditions
+- All lighthouse tests were carried out in incognito mode to avoid interference from browser extensions.
+- All tests were run for both mobile and desktop.
+- The scores shown are the final scores after fixing the issues mentioned in the "Issues and Fixes" section above.
+
+Home page (Desktop)
+
+![Screenshot of Lighthouse score for Home page for Desktops](assets/images/Light_Desktop_Index.png)
+
+Our Services page (Desktop)
+
+![Screenshot of Lighthouse score for Services page for Desktops](assets/images/Light_Desktop_Services.png)
+
+Register page (Desktop)
+
+![Screenshot of Lighthouse score for Register page for Desktops](assets/images/Light_Desktop_Register.png)
+
+Home page (Mobile)
+
+Our Services page (Mobile)
+
+Register page (Mobile)
 
 
 
 
 
-Give label volunteer in register form a new id volunteer-reg as the id volunteer was not unique as showed in lighthouse accessibility results
+
+
+
+
+
 
 ### Unfixed issues
 
-Intended outcome: Have a high Best Practices score in all three pages of the website.
-Bug: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to the YouTube iframe used in index.html as the Best Practices score went up to 100 if the video section was commented out.
-Fix: I asked my fellow students and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website.
+
 
 
 

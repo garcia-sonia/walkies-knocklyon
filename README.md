@@ -236,15 +236,15 @@ Test conditions:
 
 Home page (Desktop)
 
-![Screenshot of Lighthouse score for Home page for Desktops](assets/images/Light_Desktop_Index.png)
+![Screenshot of Lighthouse score for Home page for Desktops](docs/images/Light_Desktop_Index.png)
 
 Our Services page (Desktop)
 
-![Screenshot of Lighthouse score for Services page for Desktops](assets/images/Light_Desktop_Services.png)
+![Screenshot of Lighthouse score for Services page for Desktops](docs/images/Light_Desktop_Services.png)
 
 Register page (Desktop)
 
-![Screenshot of Lighthouse score for Register page for Desktops](assets/images/Light_Desktop_Register.png)
+![Screenshot of Lighthouse score for Register page for Desktops](docs/images/Light_Desktop_Register.png)
 
 Home page (Mobile)
 
@@ -270,38 +270,70 @@ You can find the live site via the following URL - [Walkies Knocklyon](https://g
 
 ## Credits
 
-
 ### Content inspiration
 
-[Pets for the elderly](https://www.petsfortheelderly.org/our-partners/participating-shelters.php)
+All content in the WALKIES - Knocklyon website was written by myself. I looked at the websites below for ideas and inspiration.
 
-[DSPCA](https://www.dspca.ie/)
+- [Aging Care - Article: The Healing power of pets for seniors by B. Ballinger](https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm)
 
-[The Cinnamon Trust](https://cinnamon.org.uk/home/)
+- [AARP - Article by C. Cheakalos: Ten reasons to get a dog when you're over 50](https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life-benefits-photo.html#slide3)
 
-[Home Care Assistance Blog](https://homecareassistance.com/blog/benefits-of-pets-for-seniors)
+- [DSPCA](https://www.dspca.ie/)
 
-[Aging Care - Article: The Healing power of pets for seniors by B. Ballinger](https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm)
+- [Home Care Assistance Blog](https://homecareassistance.com/blog/benefits-of-pets-for-seniors)
 
-[AARP - Article by C. Cheakalos: Ten reasons to get a dog when you're over 50](https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life-benefits-photo.html#slide3)
+- [Pets for the elderly](https://www.petsfortheelderly.org/our-partners/participating-shelters.php)
 
-### Help fixing bugs
+- [The Cinnamon Trust](https://cinnamon.org.uk/home/)
 
-[Stackoverflow - Answer provided by D.J. MacFarlane - CSS Section Automatically Adjust Height?](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height)
+### Tecnhical reference
 
-[Thesitewizard.com - How to Hide Images on a Website When It is Viewed on a Mobile Phone](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+The project was influenced by the Code Institute's code along project called Love running where I took inspiration for the placement of the logo, navigation bar and hero image with a zoom effect.
+
+For the rest of the code I mainly relied on the HTML and CSS learning content available on Code Institute's LMS. I also relied heavily upon upon W3schools and used stack overflow and thesitewizard to fix two of the bugs as already mentioned in the Issues and fixes section.
+
+- CSS Section Automatically Adjust Height? - [Stackoverflow - Answer provided by D.J. MacFarlane](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height)
+
+- How to Hide Images on a Website When It is Viewed on a Mobile Phone - [Thesitewizard.com](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+
+
 
 ### Media
 
-Senior3[Pexels.com - Photo by Cottonbro](https://www.pexels.com/photo/smiling-elderly-woman-holding-her-pet-5961937/)
-Dog-walker-275  [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/a-woman-walking-a-group-of-dogs-7210537/)
-Training-275 [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/woman-looking-at-dog-running-through-playing-tunnel-7210258/)
-Vet-275[Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-crew-neck-t-shirt-holding-white-and-brown-short-coated-medium-sized-dog-7474856/)
-volunteer-girl [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/a-woman-sitting-on-the-floor-7474086/)
-register-got[Pexels.com - Photo by lum3n](https://www.pexels.com/photo/person-holding-pet-dog-leash-while-standing-on-concrete-road-237692/)
-landing_image_walkies[iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
-senior5[Pixabay - Photo by JosepMonter](https://pixabay.com/photos/men-old-man-dog-love-person-2126859/)
+Hero image in landing page - [iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
 
+About us image - [Pxhere.com - by unknown camera](https://pxhere.com/en/photo/914261)
+
+Senior1 (Benefits) - 
+
+Senior2 (Benefits) - [Maxpixel.net - by Canon EOS 600d](https://www.maxpixel.net/Hug-Woman-Cute-Dog-Old-Love-Young-Vizsla-Puppy-1835731)
+
+Senior3 (Benefits) - [Pexels.com - Photo by Cottonbro](https://www.pexels.com/photo/smiling-elderly-woman-holding-her-pet-5961937/)
+
+Senior4 (Donate) - [Pixabay - Photo by winterseitler ](https://pixabay.com/photos/old-man-pug-park-dog-character-2090377/)
+
+Senior5 (Adopt) - [Pixabay - Photo by JosepMonter](https://pixabay.com/photos/men-old-man-dog-love-person-2126859/)
+
+Senior6 (Tailored services) - [Pexels.com - by Provisionshots](https://www.pexels.com/photo/man-love-people-summer-10923964/)
+
+Images used for the gallery in Our Services page:
+
+ - Dog walker - [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/a-woman-walking-a-group-of-dogs-7210537/)
+ - Dog agility traning - [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/woman-looking-at-dog-running-through-playing-tunnel-7210258/)
+ - Vet - [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-crew-neck-t-shirt-holding-white-and-brown-short-coated-medium-sized-dog-7474856/)
+ - walkers-275 [Pexels.com - Photo by Jonas Mohamadi](https://www.pexels.com/photo/man-and-woman-walking-dog-on-tarmacked-road-2495563/)
+
+
+Register form - [Pexels.com - Photo by lum3n](https://www.pexels.com/photo/person-holding-pet-dog-leash-while-standing-on-concrete-road-237692/)
+
+Volunteer girl - [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/a-woman-sitting-on-the-floor-7474086/)
+
+
+YouTube video on Home page
+
+Silhouette of couple walking their dog
+
+Silhouette of man walking dog
 
 
 

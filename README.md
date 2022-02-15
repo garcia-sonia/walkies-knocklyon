@@ -187,22 +187,23 @@ As well as dog walking services all year round or just during the winter months,
   - Issue: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
   - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
 
-8. Intended outcome: Have a high Best Practices score in all three pages.
-   - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
-   - Fix: I seeked advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions. 
-
-9. Intended outcome: Achieve  high Performance score in Lighthouse for all screen sizes.
+8. Intended outcome: Achieve  high Performance score in Lighthouse for all screen sizes.
    - Issue: When first testing in Lighthouse my performance score was over 90 for desktop but went down considerably when testing for mobile sizes.
    - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com
 
-10. - Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
+9. - Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
       - Issue: As realised testing with Lighthouse, the "volunteer" id was not unique as I had used it twice in register.html.
       - Fix: I gave the label in the register form a new "volunteer-reg" id.
 
-11. - Intended outcome: Achieve higher Accessibility score in Lightouse for the Services page.
+### Unfixed issues
+
+1. - Intended outcome: Achieve higher Accessibility score in Lightouse for the Services page.
       - Issue: According to the Lightouse tool the accessibility score for this page is 93 because there is a direct link to the register page from the tailored-services section and its hypertext has a white font color over a green background.
       - Fix: I decided to leave the font color untouched as it is part of the general color scheme and palette of the website and this specific hypertext is composed by only two words (Register here.) so it will not affect the general accessibility of the page and it plays its purpose being displayed in a different font color than the rest of the text in this section as it is highlighted. I also asked friends and family and the feedback was that this hypertex displays well enough even in mobile screens. A 93 score is an ok score to keep taken all of this into account.
 
+2. Intended outcome: Have a high Best Practices score in all three pages.
+   - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
+   - Fix: I seeked advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non issue" after all.
 
 ### Post Development Testing
 
@@ -228,7 +229,7 @@ As well as dog walking services all year round or just during the winter months,
      
 ### Lighthouse Score
 
-#### Test conditions
+Test conditions:
 - All lighthouse tests were carried out in incognito mode to avoid interference from browser extensions.
 - All tests were run for both mobile and desktop.
 - The scores shown are the final scores after fixing the issues mentioned in the "Issues and Fixes" section above.
@@ -247,43 +248,64 @@ Register page (Desktop)
 
 Home page (Mobile)
 
+![Screenshot of Lighthouse score for Home page for Mobile]()
+
 Our Services page (Mobile)
+
+![Screenshot of Lighthouse score for Services page for Mobile]()
 
 Register page (Mobile)
 
+![Screenshot of Lighthouse score for Register page for Mobile]()
 
+## Deployment 
 
+This website was deployed using [GitHub Pages](https://pages.github.com/) following the below procedure:
+  1. From the [project's repository](https://github.com/garcia-sonia/walkies-knocklyon), click on the Settings tab located in the top navigation bar.
+  2. From the left-hand menu, select the Pages tab.
+  3. Under the Source section, select the Main branch from the drop-down menu and click Save.
+  4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-
-
-
-
-
-
-
-### Unfixed issues
-
-
-
-
-
-## Deployment
+You can find the live site via the following URL - [Walkies Knocklyon](https://garcia-sonia.github.io/walkies-knocklyon/)
 
 ## Credits
-https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height
 
-https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml
 
-https://www.petsfortheelderly.org/our-partners/participating-shelters.php
+### Content inspiration
 
-https://www.dspca.ie/
+[Pets for the elderly](https://www.petsfortheelderly.org/our-partners/participating-shelters.php)
 
-https://cinnamon.org.uk/home/
+[DSPCA](https://www.dspca.ie/)
 
-https://homecareassistance.com/blog/benefits-of-pets-for-seniors
+[The Cinnamon Trust](https://cinnamon.org.uk/home/)
 
-https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life-benefits-photo.html#slide3
+[Home Care Assistance Blog](https://homecareassistance.com/blog/benefits-of-pets-for-seniors)
 
-https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm
+[Aging Care - Article: The Healing power of pets for seniors by B. Ballinger](https://www.agingcare.com/articles/benefits-of-elderly-owning-pets-113294.htm)
+
+[AARP - Article by C. Cheakalos: Ten reasons to get a dog when you're over 50](https://www.aarp.org/home-family/friends-family/info-2014/dog-owners-health-life-benefits-photo.html#slide3)
+
+### Help fixing bugs
+
+[Stackoverflow - Answer provided by D.J. MacFarlane - CSS Section Automatically Adjust Height?](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height)
+
+[Thesitewizard.com - How to Hide Images on a Website When It is Viewed on a Mobile Phone](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+
+### Media
+
+Senior5 [Pexels.com - Photo by Cottonbro](https://www.pexels.com/photo/smiling-elderly-woman-holding-her-pet-5961937/)
+Dog-walker-275  [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/a-woman-walking-a-group-of-dogs-7210537/)
+Training-275 [Pexels.com - Photo by Blue bird](https://www.pexels.com/photo/woman-looking-at-dog-running-through-playing-tunnel-7210258/)
+Vet-275[Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-crew-neck-t-shirt-holding-white-and-brown-short-coated-medium-sized-dog-7474856/)
+volunteer-girl [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/a-woman-sitting-on-the-floor-7474086/)
+register-got[Pexels.com - Photo by lum3n](https://www.pexels.com/photo/person-holding-pet-dog-leash-while-standing-on-concrete-road-237692/)
+
+
+
+
+
+
+
+
 
 Love Running project. 

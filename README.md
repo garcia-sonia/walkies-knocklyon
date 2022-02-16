@@ -296,15 +296,13 @@ For the rest of the code I mainly relied on the HTML and CSS learning content av
 
 - How to Hide Images on a Website When It is Viewed on a Mobile Phone - [Thesitewizard.com](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
 
-
-
 ### Media
 
 Hero image in landing page - [iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
 
 About us image - [Pxhere.com - by unknown camera](https://pxhere.com/en/photo/914261)
 
-Senior1 (Benefits) - 
+Senior1 (Benefits) - [Adove Stock - by Budimir Jevtic](https://stock.adobe.com/ie/images/old-man-and-cute-dog-kissing/158731172)
 
 Senior2 (Benefits) - [Maxpixel.net - by Canon EOS 600d](https://www.maxpixel.net/Hug-Woman-Cute-Dog-Old-Love-Young-Vizsla-Puppy-1835731)
 
@@ -328,18 +326,9 @@ Register form - [Pexels.com - Photo by lum3n](https://www.pexels.com/photo/perso
 
 Volunteer girl - [Pexels.com - Photo by Mikhail Nilov](https://www.pexels.com/photo/a-woman-sitting-on-the-floor-7474086/)
 
+Silhouette of couple walking their dog [Iconspng.com](https://www.iconspng.com/image/100077/couple-walking-their-dogs-silhouette)
 
-YouTube video on Home page
+Silhouette of woman walking dog [Pngkey.com](https://www.pngkey.com/detail/u2q8w7t4t4a9o0i1_silhouette-walking-dog-women-people-full-people-silhouette/)
 
-Silhouette of couple walking their dog
+YouTube video on Home page [10 Benefits of Seniors owning a pet - by Nurse next door](https://www.youtube.com/watch?v=-SSb4-G_SGg)
 
-Silhouette of man walking dog
-
-
-
-
-
-
-
-
-Love Running project. 

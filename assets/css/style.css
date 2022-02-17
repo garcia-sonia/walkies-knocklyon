@@ -166,7 +166,7 @@ h2 {
 #right-about img {
     height: 60%;
     width: 60%;
-    border-radius: 30%;
+    border-radius: 50px;
 }
 
 /* index.html: benefits section */
@@ -472,7 +472,7 @@ input[type=submit] {
 
     width: 210px;
     height: 30px;
-    background-color: white;
+    background-color: #fff;
     border: 3px solid #808080;
     display: block;
     border-radius: 25px;
@@ -481,7 +481,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgba(255, 165, 0, .7);
     border-color: #808080;
-    color: white;
+    color: #fff;
 }
 
 /* register.html: register more section */
@@ -589,7 +589,6 @@ input[type=submit]:hover {
     padding-bottom: 1rem;
 }
 
-
 /* media queries */
 
 /* for larger to medium screens size from 1300px and down */
@@ -645,12 +644,12 @@ input[type=submit]:hover {
     #logo {
         float: left;
         font-size: 200%;
-        margin-left: 30px;
+        margin-left: 1.8rem;
     }
 
     #menu {
         font-size: 110%;
-        letter-spacing: 4px;
+        letter-spacing: 0.25rem;
         clear: left;
         float: left;
         margin-left: 1.8rem;
@@ -735,7 +734,7 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
-     #outside-header {
+    #outside-header {
         font-size: 120%;
     }
 
@@ -856,12 +855,12 @@ input[type=submit]:hover {
         font-size: 130%;
         margin-left: 0.6rem;
     }
-    
+
     #menu {
         font-size: 95%;
         letter-spacing: normal;
     }
-    
+
     #hero-outer {
         height: 300px;
     }

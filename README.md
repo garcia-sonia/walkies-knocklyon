@@ -20,8 +20,7 @@ As well as dog walking services all year round or just during the winter months,
 
 - The consistency of the website is achieved through the regular use of the same header and footer accross all pages.
 - Other recurrent features are the use of round edged images accross all pages, the regular use of solid font awesome icons and a clearly defined background color palette composed of white, orange and a soft shade of green.  
-- Fonts are easy to read for the target audience and also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. 
-- Font colors are mainly black, but the site also uses two complementary colors, white and orange, for contrast depending on the background color or to highlight links accross the site.
+- Fonts are easy to read for the target audience and also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colors are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
 - The simplicity of the design, easy readability and straightforward uncomplicated titles and content are adequate for the nature of this website and its target audience.
 
 ![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats](docs/images/mockup_responsive_design_walkies.PNG)
@@ -153,9 +152,10 @@ As well as dog walking services all year round or just during the winter months,
 ## Testing
 
 ### Manual Testing
-- I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility.
+- I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility. 
 - I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
-- I asked a group of friends and relatives to test the functionality of the website on their devices, to check every link, to complete the register form, and to also check for spelling mistakes, etc.
+- I asked my mentor and friends and relatives to test the website on Opera and iOS and no errors were reported.
+- I asked my network to test the functionality of the website on their devices, to check every image and click on every link, to try out the navigation bar redirects, to complete the register form, and to also check for typos, etc.
 
 ### Issues and Fixes
 
@@ -170,6 +170,7 @@ As well as dog walking services all year round or just during the winter months,
 3. Intended outcome: Clear visibility of links accross the website.
   - Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (eg. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
   - Fix: Using the same color palette of the website I used a different font color (white and orange) depending on the background color (white over orange and green and orange over white).
+  - Refix: My mentor advised me to reset the font-color of every hypertex to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increase the font-size to 105% on hover to give a feeling of movement but without using Javascript.
 
 4. Intended outcome: Center the About us section image in its div
   - Issue: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
@@ -197,13 +198,13 @@ As well as dog walking services all year round or just during the winter months,
 
 ### Unfixed issues
 
-1. - Intended outcome: Achieve higher Accessibility score in Lightouse for the Services page.
-      - Issue: According to the Lightouse tool the accessibility score for this page is 93 because there is a direct link to the register page from the tailored-services section and its hypertext has a white font color over a green background.
-      - Fix: I decided to leave the font color untouched as it is part of the general color scheme and palette of the website and this specific hypertext is composed by only two words (Register here.) so it will not affect the general accessibility of the page and it plays its purpose being displayed in a different font color than the rest of the text in this section as it is highlighted. I also asked friends and family and the feedback was that this hypertex displays well enough even in mobile screens. A 93 score is an ok score to keep taken all of this into account.
-
-2. Intended outcome: Have a high Best Practices score in all three pages.
+1. Intended outcome: Have a high Best Practices score in all three pages.
    - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
    - Fix: I seeked advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non issue" after all.
+
+2. Intended outcome: Shorter and more efficient CSS code.
+- Issue: My CSS code has no errors and has passed validation. However, after learning a lot of CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targetting some recurrent elements by id (eg. most h2 headers have the same font-color and size).
+- Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a more simple and shorter CSS code.
 
 ### Post Development Testing
 

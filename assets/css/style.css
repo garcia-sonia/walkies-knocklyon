@@ -22,7 +22,6 @@ h2 {
     color: #252525;
 }
 
-
 #logo {
     float: left;
     font-size: 280%;
@@ -68,11 +67,6 @@ h2 {
     overflow: hidden;
     position: relative;
     clear: both;
-}
-
-#cover-text,
-#cover-text h2 {
-    color: #fff;
 }
 
 #cover-text h2 {
@@ -857,6 +851,17 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 500px) {
 
+    #logo {
+        float: left;
+        font-size: 130%;
+        margin-left: 0.6rem;
+    }
+    
+    #menu {
+        font-size: 95%;
+        letter-spacing: normal;
+    }
+    
     #hero-outer {
         height: 300px;
     }
@@ -873,15 +878,8 @@ input[type=submit]:hover {
         letter-spacing: 0.1rem;
     }
 
-    #logo {
-        float: left;
-        font-size: 130%;
-        margin-left: 0.6rem;
-    }
-
-    #menu {
-        font-size: 95%;
-        letter-spacing: normal;
+    #desktop-view {
+        display: none;
     }
 
     #about-us {

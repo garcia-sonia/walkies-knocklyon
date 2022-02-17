@@ -153,12 +153,12 @@ h2 {
 }
 
 #left-about ul li a {
-    text-decoration: solid;
-    color: #ffa500;
+    color: #252525;
+    text-decoration: underline;
 }
 
 #left-about ul li a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    font-size: 105%;
 }
 
 #right-about {
@@ -244,12 +244,12 @@ h2 {
 }
 
 #newsletter a {
-    text-decoration: solid;
-    color: #fff;
+    color: #252525;
+    text-decoration: underline;
 }
 
 #newsletter a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    font-size: 105%;
 }
 
 /* footer */
@@ -377,12 +377,12 @@ footer p {
 }
 
 #tailored-text a {
-    text-decoration: solid;
-    color: #fff;
+    color: #252525;
+    text-decoration: underline;
 }
 
 #tailored-text a:hover {
-    border-bottom: 0.06rem solid #3a3a3a;
+    font-size: 105%;
 }
 
 /* services.html: area covered section*/
@@ -561,20 +561,16 @@ input[type=submit]:hover {
 }
 
 #donate a,
-#adopt a {
-    text-decoration: solid;
-    color: #ffa500;
-}
-
+#adopt a,
 #volunteer a {
-    text-decoration: solid;
-    color: #fff;
+    color: #252525;
+    text-decoration: underline;
 }
 
 #donate a:hover,
 #volunteer a:hover,
 #adopt a:hover {
-    border-bottom: 0.06rem solid #3a3a3a;
+    font-size: 105%;
 }
 
 .clear {

@@ -8,6 +8,18 @@ WALKIES – Knocklyon was founded on the belief that dog ownership provides grea
 
 As well as dog walking services all year round or just during the winter months, WALKIES – Knocklyon also provides other services like trips to the vet, short-term fostering when needed, sourcing pet supplies, dog socialising, dog training and dog adoption. The charity also strives to provide tailored services for those seniors with other specific pet care needs. Their motto is HAPPY DOGS, HAPPY OWNERS.
 
+## Responsive Design:
+
+The WALKIES - Knocklyon website was designed for good responsiveness on all screens all the way down to 320px wide.
+
+- Responsive design on MAC and iOS devices:
+
+![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats on Apple screens](docs/images/mockup_responsive_design_walkies_techsini.PNG)
+
+- Responsive design on PC and Android devices:
+
+![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats on PC screens and Android devices](docs/images/mockup_responsive_design_walkies_ami.PNG)
+
 ## Site Structure 
 
 - This website is structured in three different pages: Home, Our Services and Register. 
@@ -22,8 +34,6 @@ As well as dog walking services all year round or just during the winter months,
 - Other recurrent features are the use of round edged images accross all pages, the regular use of solid font awesome icons and a clearly defined background color palette composed of white, orange and a soft shade of green.  
 - Fonts are easy to read for the target audience and also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colors are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
 - The simplicity of the design, easy readability and straightforward uncomplicated titles and content are adequate for the nature of this website and its target audience.
-
-![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats](docs/images/mockup_responsive_design_walkies.PNG)
 
 ## Features
 
@@ -40,7 +50,7 @@ As well as dog walking services all year round or just during the winter months,
 - This section allows users to navigate from page to page within the website easily without needing to revert back to previous pages using the back button.
 - The active page appears underlined on the navigation bar for easy identification.
 
-![Screenshot of Logo and navigation bar for bigger screens](docs/images/logo_and_navbar_walkies.PNG)
+![Screenshot of Logo and navigation bar for bigger screens](docs/images/screenshot_logo_and_navbar_walkies.PNG)
 
 ### Home page: The Landing page image
 
@@ -48,28 +58,28 @@ As well as dog walking services all year round or just during the winter months,
 - There is a zoom effect on the landing image every time the user clicks on the Home link of the navigation bar or on the actual logo. 
 - An orange text box features at the bottom right corner of the landing image with the slogan of the charity "HAPPY DOGS, HAPPY OWNERS" and also reinforces the purpose and the target audience of the website.
 
-![Screenshot of Landing page image](docs/images/landing_image_walkies.PNG)
+![Screenshot of Landing page image](docs/images/screenshot_landing_page.PNG)
 
 ### Home page: About us section
 
 - The About us section introduces WALKIES - Knoclyon, its nature, its purpose, the target audience and also gives an overview of the type of services offered.
 - This section also includes a direct link to the register form available in the Register page.
 
-![Screenshot of About us section](docs/images/about_us_walkies.PNG)
+![Screenshot of About us section](docs/images/screenshot_about_us.PNG)
 
 ### Home page: The Benefits of Dogs for Seniors
 
 - The Benefits section includes a list of the main benefits of dog ownership for seniors in terms of mental and also physical health.
 - This section also includes three pictures of seniors spending time with their dogs.
 
-![Screenshot of The Benefits of Dogs for Seniors section](docs/images/benefits_dogs_walkies.PNG)
+![Screenshot of The Benefits of Dogs for Seniors section](docs/images/screenshot_benefits.PNG)
 
 ### Home page: Monthly top pick video (Watch our top pick February video!)
 
 - This section includes a relevant monthly top pick video and the idea is that it will be updated monthly by the charity to add a bit of fun and novelty to the Home page.
 - The February top pick video is a YouTube video called "10 Benefits for seniors owning a pet".
 
-![Screenshot of February top pick video](docs/images/video_walkies.PNG)
+![Screenshot of February top pick video](docs/images/screenshot_video.PNG)
 
 ### Home page: Newsletter announcement box 
 
@@ -77,7 +87,7 @@ As well as dog walking services all year round or just during the winter months,
 - The Home page announcement concerns the new newsletter which will be launched in March.
 - This section also includes a direct link to the register form in the Register page.
 
-![Screenshot of Newsletter announcement box](docs/images/newsletter_walkies.PNG)
+![Screenshot of Newsletter announcement box](docs/images/screenshot_newsletter.PNG)
 
 ### Footer
 
@@ -85,36 +95,36 @@ As well as dog walking services all year round or just during the winter months,
 - This section includes the Registered Charity number, physical address, phone number and email address. The senior target audience is more likely to call or send an email rather than than using social media. 
 - This section also includes links to all the relevant social media pages for WALKIES - Knocklyon. The social media links will be valuable for some of the seniors who use social media, for other family members and carers and for volunteers.
 
-![Screenshot of Footer](docs/images/footer_walkies.PNG)
+![Screenshot of Footer](docs/images/screenshot_footer.PNG)
 
 ### Our Services page: Services section
 
 - This is the first section in the Our Services page and includes a photo gallery picturing some of the services offered.
 - It also includes a list with the main services offered by the charity.
 
-![Screenshot of Services gallery](docs/images/our_services_gallery_walkies.PNG)
-![Screenshot of Services list](docs/images/our_services_list_walkies.PNG)
+![Screenshot of Services gallery](docs/images/screenshot_services_gallery.PNG)
+![Screenshot of Services list](docs/images/screenshot_our_services_list.PNG)
 
 ### Our Services page: Tailored services
 
 - This is the section placed just under the main services list and its goal is to make a point about the flexibility of the services offered and to encourage seniors with different needs to get in touch.
 - The header of this section is a h3 as it can be considered as an add-up to the services section above which has a h2 header.
 
-![Screenshot of Tailored services section](docs/images/tailored_services_walkies.PNG)
+![Screenshot of Tailored services section](docs/images/screenshot_tailored.PNG)
 
 ### Our Services page: Area covered
 
 - The Area covered section includes a Google maps iframe with Knocklyon with a red pin placed right in the centre of Knokclyon.
 - This section also includes a mention regarding the radius of the catchment area.
 
-![Screenshot of Area covered](docs/images/area_covered_walkies.PNG)
+![Screenshot of Area covered](docs/images/screenshot_area_covered.PNG)
 
 ### Our Services page: Outside of catchment area announcement box
 
 - Following the same layout as the other two pages in the website, the Our Services page ends with an announcement box with an orange background placed just above the footer.
 - This section informs seniors from outside the catchment area that the charity will strive to help them connect with their local help groups.
 
-![Screenshot of the Outside of catchment area annoncement box](docs/images/out_of_area_walkies.PNG)
+![Screenshot of the Outside of catchment area annoncement box](docs/images/screenshot_out_of_area.PNG)
 
 ### Register page: Register form 
 
@@ -124,7 +134,7 @@ As well as dog walking services all year round or just during the winter months,
 - The form is placed on the left side of the screen over a background image of a Collie dog being lead walked.
 - The form uses a post method and data is sent to the Code Institute's form dump URL.
 
-![Screenshot of the Register form](docs/images/register_walkies.PNG)
+![Screenshot of the Register form](docs/images/screenshot_register_walkies.PNG)
 
 ### Register page: Register more section, Donate, Voulunteer, and Adopt.
 
@@ -133,15 +143,15 @@ As well as dog walking services all year round or just during the winter months,
 - The Adotp sub-section includes a link to a relevant funding page.
 - The Volunteer and Adopt sub-sections both include direct links to the register form above.
 
-![Screenshot of Donate sub-section](docs/images/donate_walkies.PNG)
-![Screenshot of Volunteer sub-section](docs/images/volunteer_walkies.PNG)
-![Screenshot of Adopt sub-section](docs/images/adopt_walkies.PNG)
+![Screenshot of Donate sub-section](docs/images/screenshot_donate.PNG)
+![Screenshot of Volunteer sub-section](docs/images/screenshot_volunteer.PNG)
+![Screenshot of Adopt sub-section](docs/images/screenshot_adopt.PNG)
 
 ### Register page: Coffee mornings announcement box
 
 - Following the same structure accross the website, the last section of the Register page, just above the footer, is an orange announcement box informing users that coffee mornings will restart soon.
 
-![Screenshot of Coffe mornings announcement box](docs/images/coffe_mornings_walkies.PNG)
+![Screenshot of Coffe mornings announcement box](docs/images/screenshot_coffee_mornings.PNG)
 
 ### Features to implement in the future
 

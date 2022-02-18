@@ -36,14 +36,14 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 - The consistency of the website is achieved through the regular use of the same header and footer across all pages.
 - Other recurrent features are the use of round edged images across all pages, the regular use of solid font awesome icons and a clearly defined background colour palette composed of white, orange and a soft shade of blue-green.  
-- Fonts are easy to read for the target audience and also consistent across the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colours are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
+- Fonts are easy to read for the target audience and also consistent across the site with the use of Lato, sans serif in the body and Oswald, sans serif for all headers. Font colours are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
 - The simplicity of the design, easy readability and straightforward uncomplicated titles and content are adequate for the nature of this website and its target audience.
 - The colour palette composed by white, orange, and a soft shade of blue-green, brings subtle and comforting colours to the website in order to satisfy the target audience.
 
 ## Features
 
 ### Logo 
-- The WALKIES - Knocklyon logo features at the top left side of the screen in solid black over a white background and includes a font awesome paw icon.
+- The WALKIES - Knocklyon logo features at the top left side of the screen in solid dark grey over a white background and includes a font awesome paw icon.
 - The font used is Oswald, sans serif and the size starts with 280% for bigger screens down to 130% for smaller screens. 
 - The logo has a purposely uncomplicated design and is easy to read as this is not a commercial website, but a charity's website and the target audience are seniors looking for a service.
 - The logo also includes the location of this group, Knocklyon, as this is a local volunteer group targeting senior neighbours and volunteers of this specific neighbourhood.

@@ -216,6 +216,10 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 - Issue: My CSS code has no errors and has passed validation. However, after learning a lot of CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targetting some recurrent elements by id (eg. most h2 headers have the same font-color and size).
 - Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a more simple and shorter CSS code.
 
+3. Intended outcome: No tapping issues on mobile devices.
+- Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very closed together for really small screens.
+- Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide.
+
 ### Post Development Testing
 
 - HTML Validator: https://validator.w3.org/nu/
@@ -245,29 +249,16 @@ Test conditions:
 - All tests were run for both mobile and desktop.
 - The scores shown are the final scores after fixing the issues mentioned in the "Issues and Fixes" section above.
 
-Home page (Desktop)
 
-![Screenshot of Lighthouse score for Home page for Desktops](docs/images/Light_Desktop_Index.png)
+Lighthouse Scores for Desktop: 
 
-Our Services page (Desktop)
+![Screenshot of Lighthouse scores for Desktops](docs/images/Lighthouse_desktop_all_pages.png)
 
-![Screenshot of Lighthouse score for Services page for Desktops](docs/images/Light_Desktop_Services.png)
 
-Register page (Desktop)
+Lighthouse Scores for Mobile: 
 
-![Screenshot of Lighthouse score for Register page for Desktops](docs/images/Light_Desktop_Register.png)
+![Screenshot of Lighthouse scores for Mobile](docs/images/Lighthouse_mobile_all_pages.png)
 
-Home page (Mobile)
-
-![Screenshot of Lighthouse score for Home page for Mobile]()
-
-Our Services page (Mobile)
-
-![Screenshot of Lighthouse score for Services page for Mobile]()
-
-Register page (Mobile)
-
-![Screenshot of Lighthouse score for Register page for Mobile]()
 
 ## Deployment 
 
@@ -299,13 +290,20 @@ All content in the WALKIES - Knocklyon website was written by myself. I looked a
 
 ### Tecnhical reference
 
+First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for his all his help and good advice throughout this project Portfolio.
+
 The project was influenced by the Code Institute's code along project called Love running where I took inspiration for the placement of the logo, navigation bar and hero image with a zoom effect.
 
-For the rest of the code I mainly relied on the HTML and CSS learning content available on Code Institute's LMS. I also relied heavily upon upon W3schools and used stack overflow and thesitewizard to fix two of the bugs as already mentioned in the Issues and fixes section.
+For the rest of the code I relied mainly upon W3schools and used stack overflow and thesitewizard to fix two of the bugs as already mentioned in the Issues and fixes section.
 
 - CSS Section Automatically Adjust Height? - [Stackoverflow - Answer provided by D.J. MacFarlane](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height)
 
 - How to Hide Images on a Website When It is Viewed on a Mobile Phone - [Thesitewizard.com](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+
+Last but not least I would like to thank:
+- [Simen Daehlin](https://github.com/Eventyret) for always answering my questions promptly on the Project portfolio1 Code Institute's slack channel.
+- [David Bowers](https://github.com/dnlbowers) for taking inspiration on the Readme file he prepared in the context of his [Modern Budhism](https://github.com/dnlbowers/modern-buddhism/blob/main/README.md) project Portfolio.
+- [Dilner1](https://github.com/dilner1) for taking inspiration on the way sections are divided in his [Studio6](https://github.com/dilner1/Studio-Six) project Portfolio.
 
 ### Media
 

@@ -69,10 +69,6 @@ h2 {
     clear: both;
 }
 
-#cover-text h2 {
-    text-transform: uppercase;
-}
-
 #hero-image {
     height: 650px;
     width: 100%;
@@ -99,6 +95,7 @@ h2 {
 #cover-text {
     font-size: 120%;
     font-family: Oswald, sans-serif;
+    color: #252525;
     text-transform: none;
     text-align: center;
     letter-spacing: 0.25rem;
@@ -110,6 +107,10 @@ h2 {
     right: 1.8rem;
     position: absolute;
     border-radius: 25px;
+}
+
+#cover-text h2 {
+    text-transform: uppercase;
 }
 
 /* index.html: about us section */
@@ -487,7 +488,6 @@ input[type=submit]:hover {
 /* register.html: register more section */
 
 #register-more {
-    padding: 1rem 0;
     height: auto;
 }
 

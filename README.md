@@ -8,17 +8,21 @@ WALKIES – Knocklyon was founded on the belief that dog ownership provides grea
 
 As well as dog walking services all year round or just during the winter months, WALKIES – Knocklyon also provides other services like trips to the vet, short-term fostering when needed, sourcing pet supplies, dog socialising, dog training and dog adoption. The charity also strives to provide tailored services for those seniors with other specific pet care needs. Their motto is HAPPY DOGS, HAPPY OWNERS.
 
+## Target Audience:
+- Primary audience: Senior neighbours of Knocklyon who currently own a dog or would like to adopt one.
+- Secondary audiences: Relatives, carers, and volunteers.
+
 ## Responsive Design:
 
 The WALKIES - Knocklyon website was designed for good responsiveness on all screens all the way down to 320px wide.
 
 - Responsive design on MAC and iOS devices:
 
-![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats on Apple screens](docs/images/mockup_responsive_design_walkies_techsini.PNG)
+![Mockups showing how this website's design is responsive for desktop, laptop, tablet and mobile formats on Apple screens](docs/images/mockup_responsive_design_walkies_techsini.PNG)
 
 - Responsive design on PC and Android devices:
 
-![Mockups showing how this website's design is reponsive for desktop, laptop, tablet and mobile formats on PC screens and Android devices](docs/images/mockup_responsive_design_walkies_ami.PNG)
+![Mockups showing how this website's design is responsive for desktop, laptop, tablet and mobile formats on PC screens and Android devices](docs/images/mockup_responsive_design_walkies_ami.PNG)
 
 ## Site Structure 
 
@@ -28,20 +32,21 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 - There are also relevant announcements on all pages regarding the charity’s new launched newsletter, coffee morning meet ups, and offering help to senior neighbours of other areas to connect with their local support groups. 
 - Finally, the Register page also includes information about how to donate and promotes the need for volunteers and the dog adoption services.
 
-## Site Consistency
+## Site Consistency and Design choices
 
-- The consistency of the website is achieved through the regular use of the same header and footer accross all pages.
-- Other recurrent features are the use of round edged images accross all pages, the regular use of solid font awesome icons and a clearly defined background color palette composed of white, orange and a soft shade of green.  
-- Fonts are easy to read for the target audience and also consistent accross the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colors are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
+- The consistency of the website is achieved through the regular use of the same header and footer across all pages.
+- Other recurrent features are the use of round edged images across all pages, the regular use of solid font awesome icons and a clearly defined background colour palette composed of white, orange and a soft shade of blue-green.  
+- Fonts are easy to read for the target audience and also consistent across the site with the use of Lato, sans serif in the body and Oswald, sans serif all headers. Font colours are #2a2a2a and #252525 respectively which are both pleasant and easy to read dark greys.
 - The simplicity of the design, easy readability and straightforward uncomplicated titles and content are adequate for the nature of this website and its target audience.
+- The colour palette composed by white, orange, and a soft shade of blue-green, brings subtle and comforting colours to the website in order to satisfy the target audience.
 
 ## Features
 
 ### Logo 
 - The WALKIES - Knocklyon logo features at the top left side of the screen in solid black over a white background and includes a font awesome paw icon.
 - The font used is Oswald, sans serif and the size starts with 280% for bigger screens down to 130% for smaller screens. 
-- The logo has a purposely uncomplicated design and is easy to read as this is not a commercial website but a charity's website and the target audience are seniors looking for a service.
-- The logo also includes the location of this group, Knocklyon, as this is a local volunteer group targetting senior neighbours and volunteers of this specific neighbourhood.
+- The logo has a purposely uncomplicated design and is easy to read as this is not a commercial website, but a charity's website and the target audience are seniors looking for a service.
+- The logo also includes the location of this group, Knocklyon, as this is a local volunteer group targeting senior neighbours and volunteers of this specific neighbourhood.
 
 ### Navigation bar
 - Featured on all three pages of the website, the navigation bar is placed aligned with the WALKIES logo and on the opposite side of the screen for desktop and laptop formats. 
@@ -62,7 +67,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Home page: About us section
 
-- The About us section introduces WALKIES - Knoclyon, its nature, its purpose, the target audience and also gives an overview of the type of services offered.
+- The About us section introduces WALKIES - Knocklyon, its nature, its purpose, the target audience and also gives an overview of the type of services offered.
 - This section also includes a direct link to the register form available in the Register page.
 
 ![Screenshot of About us section](docs/images/screenshot_about_us.PNG)
@@ -83,7 +88,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Home page: Newsletter announcement box 
 
-- There is an announcemnt box with an orange background at the bottom of every page of this website to bring some consistentcy to the site as a whole.
+- There is an announcement box with an orange background at the bottom of every page of this website to bring some consistency to the site as a whole.
 - The Home page announcement concerns the new newsletter which will be launched in March.
 - This section also includes a direct link to the register form in the Register page.
 
@@ -91,8 +96,8 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Footer
 
-- The Footer section is the same accross all three pages in the website adding to the feeling of consistency.
-- This section includes the Registered Charity number, physical address, phone number and email address. The senior target audience is more likely to call or send an email rather than than using social media. 
+- The Footer section is the same across all three pages on the website adding to the feeling of consistency.
+- This section includes the Registered Charity number, physical address, phone number and email address. The senior target audience is more likely to call or send an email rather than using social media. 
 - This section also includes links to all the relevant social media pages for WALKIES - Knocklyon. The social media links will be valuable for some of the seniors who use social media, for other family members and carers and for volunteers.
 
 ![Screenshot of Footer](docs/images/screenshot_footer.PNG)
@@ -114,7 +119,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Our Services page: Area covered
 
-- The Area covered section includes a Google maps iframe with Knocklyon with a red pin placed right in the centre of Knokclyon.
+- The Area covered section includes a Google maps iframe with Knocklyon with a red pin placed right in the centre of Knocklyon.
 - This section also includes a mention regarding the radius of the catchment area.
 
 ![Screenshot of Area covered](docs/images/screenshot_area_covered.PNG)
@@ -124,11 +129,11 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 - Following the same layout as the other two pages in the website, the Our Services page ends with an announcement box with an orange background placed just above the footer.
 - This section informs seniors from outside the catchment area that the charity will strive to help them connect with their local help groups.
 
-![Screenshot of the Outside of catchment area annoncement box](docs/images/screenshot_out_of_area.PNG)
+![Screenshot of the Outside of catchment area announcement box](docs/images/screenshot_out_of_area.PNG)
 
 ### Register page: Register form 
 
-- The Register form allows users to register. Users will have to select a specific radio button depending if they are seniors looking to use the services or if they wish to regitser as volunteers.
+- The Register form allows users to register. Users will have to select a specific radio button depending on whether they are seniors looking to use the services or if they wish to register as volunteers.
 - Users will be asked to enter their first name, last name, and email address which are all required fields.
 - Users can also enter any additional information via a free text box.
 - The form is placed on the left side of the screen over a background image of a Collie dog being lead walked.
@@ -136,11 +141,11 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ![Screenshot of the Register form](docs/images/screenshot_register_walkies.PNG)
 
-### Register page: Register more section, Donate, Voulunteer, and Adopt.
+### Register page: Register more section, Donate, Volunteer, and Adopt.
 
 - This section is placed just under the register form and contains three sub-sections, Donate, Volunteer and Adopt.
-- This section aims to provide further information to users highlithing the fact that donations and volunteers are critical for the running of the charity and also presenting the Adoption service as an option for seniors who would do not currently own a dog and would still like to register.
-- The Adotp sub-section includes a link to a relevant funding page.
+- This section aims to provide further information to users highlighting the fact that donations and volunteers are critical for the running of the charity and also presenting the Adoption service as an option for seniors who would do not currently own a dog and would still like to register.
+- The Adopt sub-section includes a link to a relevant funding page.
 - The Volunteer and Adopt sub-sections both include direct links to the register form above.
 
 ![Screenshot of Donate sub-section](docs/images/screenshot_donate.PNG)
@@ -149,9 +154,9 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Register page: Coffee mornings announcement box
 
-- Following the same structure accross the website, the last section of the Register page, just above the footer, is an orange announcement box informing users that coffee mornings will restart soon.
+- Following the same structure across the website, the last section of the Register page, just above the footer, is an orange announcement box informing users that coffee mornings will restart soon.
 
-![Screenshot of Coffe mornings announcement box](docs/images/screenshot_coffee_mornings.PNG)
+![Screenshot of Coffee mornings announcement box](docs/images/screenshot_coffee_mornings.PNG)
 
 ### Features to implement in the future
 
@@ -171,34 +176,34 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 1. Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
    - Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
-   - Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section but the Services list is essential for the target audience so this brings a more balanced viewing / reading of this section. 
+   - Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section, but the Services list is essential for the target audience so this brings a more balanced viewing / reading of this section. 
 
 2. Intended outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
    - Issue: I was only able to find images of seniors with dogs which format was not suitable for the elongated hero image format that I wanted to achieve so I settled for a photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of WALKIES - Knocklyon and how it aims to helps seniors.
    - Solution: I kept looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
 
-3. Intended outcome: Clear visibility of links accross the website.
-  - Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (eg. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
-  - Fix: Using the same color palette of the website I used a different font color (white and orange) depending on the background color (white over orange and green and orange over white).
-  - Refix: My mentor advised me to reset the font-color of every hypertex to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increase the font-size to 105% on hover to give a feeling of movement but without using Javascript.
+3. Intended outcome: Clear visibility of links across the website.
+  - Issue: Some of the feedback I got from friends is that the direct links to the register form from other sections (e.g. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
+  - Fix: Using the same colour palette of the website I used a different font colour (white and orange) depending on the background colour (white over orange and green and orange over white).
+  - Refix: My mentor advised me to reset the font-colour of every hypertext to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increase the font-size to 105% on hover to give a feeling of movement but without using JavaScript.
 
-4. Intended outcome: Center the About us section image in its div
-  - Issue: The div containing the image floats right and the image itself was not centered in the div. The align-items and text-align attributes were not achieving the desired outcome.
-  - Fix: I found the answer in the "Love Running" project provided by the Code Institue and achieved the desired result by setting the margin: 0 auto.
+4. Intended outcome: Centre the About us section image in its div
+  - Issue: The div containing the image floats right and the image itself was not centred in the div. The align-items and text-align attributes were not achieving the desired outcome.
+  - Fix: I found the answer in the "Love Running" project provided by the Code Institute and achieved the desired result by setting the margin: 0 auto.
 
-5. Intended outcome: Website elements optimised scaling depeding on browser's settings.
+5. Intended outcome: Website elements optimised scaling depending on browser's settings.
   - Issue: Some of the feedback I received from my mentor was to avoid the use of pixels as a unit as much as possible as rem allows for optimised scalability depending on a user's browser settings.
   - Solution: I converted most of the pixels into rem measures with some exceptions like image sizes.
 
 6. Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
   - Issue: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
-  - Fix:I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
+  - Fix: I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
 
-7. Intended outcome: Hide one of the sihouette icons part of the Our Services header in screens 500px and under.
+7. Intended outcome: Hide one of the silhouette icons part of the Our Services header in screens 500px and under.
   - Issue: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
   - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
 
-8. Intended outcome: Achieve  high Performance score in Lighthouse for all screen sizes.
+8. Intended outcome: Achieve high Performance score in Lighthouse for all screen sizes.
    - Issue: When first testing in Lighthouse my performance score was over 90 for desktop but went down considerably when testing for mobile sizes.
    - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com
 
@@ -210,10 +215,10 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 1. Intended outcome: Have a high Best Practices score in all three pages.
    - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
-   - Fix: I seeked advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non issue" after all.
+   - Fix: I sought advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non-issue" after all.
 
 2. Intended outcome: Shorter and more efficient CSS code.
-- Issue: My CSS code has no errors and has passed validation. However, after learning a lot of CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targetting some recurrent elements by id (eg. most h2 headers have the same font-color and size).
+- Issue: My CSS code has no errors and has passed validation. However, after learning a lot of CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id (e.g. most h2 headers have the same font colour and size).
 - Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a more simple and shorter CSS code.
 
 3. Intended outcome: No tapping issues on mobile devices.
@@ -227,7 +232,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
     - The solution was simply to locate and remove the stray end of div
 
   - Issue found: The services gallery section needed a header (yellow warning)
-    - The solution I used was turning the services gallery and the services list into two divs instead of sections and I then placing them inside the same secion called Services which has a h2 header.
+    - The solution I used was turning the services gallery and the services list into two divs instead of sections and I then placing them inside the same section called Services which has a h2 header.
 
 
 - CSS Validator: https://jigsaw.w3.org/css-validator/
@@ -268,7 +273,7 @@ This website was deployed using [GitHub Pages](https://pages.github.com/) follow
   3. Under the Source section, select the Main branch from the drop-down menu and click Save.
   4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You can find the live site via the following URL - [Walkies Knocklyon](https://garcia-sonia.github.io/walkies-knocklyon/)
+You can find the live site via the following URL - [WALKIES - Knocklyon](https://garcia-sonia.github.io/walkies-knocklyon/)
 
 ## Credits
 
@@ -288,7 +293,7 @@ All content in the WALKIES - Knocklyon website was written by myself. I looked a
 
 - [The Cinnamon Trust](https://cinnamon.org.uk/home/)
 
-### Tecnhical reference
+### Technical reference
 
 First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for his all his help and good advice throughout this project Portfolio.
 

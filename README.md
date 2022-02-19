@@ -176,28 +176,36 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 1. Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
    - Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
    - Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section, but the Services list is essential for the target audience so this brings a more balanced viewing / reading to this section. 
+
 2. Intended outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
    - Issue: I was only able to find images of seniors with dogs which format was not suitable for the wide horizontal hero image format that I wanted to achieve so I settled for a placeholder photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of the charity and how it aims to help seniors.
    - Solution: I kept looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project with an image portraying a senior lady hugging her dog.
+
 3. Intended outcome: Clear visibility of links across the website.
     - Issue: Some of the feedback I got from my network is that the direct links to the register form from other sections (e.g. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized and were underlined on hover but were not visible at first sight and could be missed.
     - Fix: Using the same colour palette of the website I used a different font colour (white and orange) depending on the background colour (e.g. white over orange and orange over white).
     - Refix: My mentor advised me to reset the font-colour of every hypertext to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increased the font-size to 105% on hover to give a feeling of movement but without using JavaScript.
+
 4. Intended outcome: Centre the About us section image in its div
     - Issue: The div containing the image floats right and the image itself was not centred in the div. The text-align, align-items and text-align attributes were not achieving the desired outcome.
     - Fix: I found the answer in the "Love Running" project provided by the Code Institute and achieved the desired result by setting the margin to 0 auto.
+
 5. Intended outcome: Website elements optimised scaling depending on browser's settings.
     - Issue: Some of the feedback I received from my mentor was to avoid the use of pixels as a unit as much as possible as rem allows for optimised scalability depending on a user's browser settings.
     - Solution: I converted most of the pixels into rem measures with some exceptions like image sizes.
+
 6. Intended outcome: A Services-more section which includes the divs Donate, Volunteer and Adopt and that is clear of other sections.
     - Issue: Before I included the announcement box at the bottom of this section, services-more was directly over the footer and the social media icons kept overlapping with it. After checking on DevTools I realised that only a small part at the top of the register-more section was highlighted when I hovered over it. 
     - Fix: I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
+
 7. Intended outcome: Hide one of the silhouette icons which are part of the Our Services header in screens 500px and under.
     - Issue: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
     - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below. I used the same technique to hide the subtitle of the Hero image cover text box for smaller screens of 500px and under. This way on small screens the only cover text displaying is "HAPPY DOGS, HAPPY OWNERS".
+
 8. Intended outcome: Achieve high Performance score in Lighthouse for all screen sizes.
     - Issue: When first testing in Lighthouse my performance scores were all over 90 for desktop but went down considerably when testing for mobile sizes.
     - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com. (The Register page performance score for mobile is the only score now falling under 90. After compressing the images extensively I decided to settle for an 89 score for mobile as seen in the screenshot below. The performance of the same Register page on Desktop is 99 as also shown below.)
+    
 9. Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
     - Issue: As realised testing with Lighthouse, the "volunteer" id was not unique as I had used it twice in register.html.
     - Fix: I gave the label in the register form a new "volunteer-reg" id.
@@ -209,12 +217,12 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
    - Fix: I sought advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window, then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non-issue" after all.
 
 2. Intended outcome: Shorter and more efficient CSS code.
-- Issue: My CSS code has no errors and has passed validation. However, after learning many CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id.
-- Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a simplified CSS code (e.g. most h2 headers have the same font colour and size so a header class could have been used).
+  - Issue: My CSS code has no errors and has passed validation. However, after learning many CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id.
+  - Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a simplified CSS code (e.g. most h2 headers have the same font colour and size so a header class could have been used).
 
 3. Intended outcome: No tapping issues on mobile devices.
-- Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very close together for really small screens.
-- Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide. The tapping issue only seems to occur when the menu items are pushed one under the other for screens under 314px in width, but as disclaimed above this website has been designed to be functional for all screen sizes down to 320px in width.
+  - Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very close together for really small screens.
+  - Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide. The tapping issue only seems to occur when the menu items are pushed one under the other for screens under 314px in width, but as disclaimed above this website has been designed to be functional for all screen sizes down to 320px in width.
 
 ### Post Development Testing
 

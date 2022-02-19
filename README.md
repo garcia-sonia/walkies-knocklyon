@@ -4,17 +4,17 @@
 
 WALKIES – Knocklyon is a registered charity run by volunteers to support the Senior neighbours of Knocklyon with their dog walking and pet care needs. Their office is based at the Leaf community centre and the catchment area for their services is a 5km radius around the heart of Knocklyon.
 
-WALKIES – Knocklyon was founded on the belief that dog ownership provides great support and loving companionship to seniors, relieving feelings of loneliness and that dogs also provide many other health benefits to seniors like reducing stress, lowering blood pressure and increase social and physical interaction.
+WALKIES – Knocklyon was founded on the belief that dog ownership provides great support and loving companionship to seniors, relieving feelings of loneliness and that dogs also provide many other health benefits to seniors like reducing stress, lowering blood pressure and increased social and physical interaction.
 
 As well as dog walking services all year round or just during the winter months, WALKIES – Knocklyon also provides other services like trips to the vet, short-term fostering when needed, sourcing pet supplies, dog socialising, dog training and dog adoption. The charity also strives to provide tailored services for those seniors with other specific pet care needs. Their motto is HAPPY DOGS, HAPPY OWNERS.
 
 ## Target Audience:
 - Primary audience: Senior neighbours of Knocklyon who currently own a dog or would like to adopt one.
-- Secondary audiences: Relatives, carers, and volunteers.
+- Secondary audience: Relatives, carers, and volunteers.
 
 ## Responsive Design:
 
-The WALKIES - Knocklyon website was designed for good responsiveness on all screens all the way down to 320px wide.
+The WALKIES - Knocklyon website was designed for good responsiveness on all screen sizes all the way down to 320px wide.
 
 - Responsive design on MAC and iOS devices:
 
@@ -51,7 +51,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 ### Navigation bar
 - Featured on all three pages of the website, the navigation bar is placed aligned with the WALKIES logo and on the opposite side of the screen for desktop and laptop formats. 
 - The bar is then pushed down to a left side position, placed just under the logo, for smaller screens.
-- The navigation bar links to the Home, Services and Register pages and is identical in all three pages.
+- The navigation bar links to the Home, Services and Register pages and is identical on all three pages.
 - This section allows users to navigate from page to page within the website easily without needing to revert back to previous pages using the back button.
 - The active page appears underlined on the navigation bar for easy identification.
 
@@ -119,7 +119,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Our Services page: Area covered
 
-- The Area covered section includes a Google maps iframe with Knocklyon with a red pin placed right in the centre of Knocklyon.
+- The Area covered section includes a Google maps iframe of Knocklyon with a red pin placed right in the centre of Knocklyon.
 - This section also includes a mention regarding the radius of the catchment area.
 
 ![Screenshot of Area covered](docs/images/screenshot_area_covered.PNG)
@@ -205,7 +205,7 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 8. Intended outcome: Achieve high Performance score in Lighthouse for all screen sizes.
     - Issue: When first testing in Lighthouse my performance scores were all over 90 for desktop but went down considerably when testing for mobile sizes.
     - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com. (The Register page performance score for mobile is the only score now falling under 90. After compressing the images extensively I decided to settle for an 89 score for mobile as seen in the screenshot below. The performance of the same Register page on Desktop is 99 as also shown below.)
-    
+
 9. Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
     - Issue: As realised testing with Lighthouse, the "volunteer" id was not unique as I had used it twice in register.html.
     - Fix: I gave the label in the register form a new "volunteer-reg" id.
@@ -217,12 +217,12 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
    - Fix: I sought advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window, then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non-issue" after all.
 
 2. Intended outcome: Shorter and more efficient CSS code.
-  - Issue: My CSS code has no errors and has passed validation. However, after learning many CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id.
-  - Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a simplified CSS code (e.g. most h2 headers have the same font colour and size so a header class could have been used).
+   - Issue: My CSS code has no errors and has passed validation. However, after learning many CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id.
+   - Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a simplified CSS code (e.g. most h2 headers have the same font colour and size so a header class could have been used).
 
 3. Intended outcome: No tapping issues on mobile devices.
-  - Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very close together for really small screens.
-  - Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide. The tapping issue only seems to occur when the menu items are pushed one under the other for screens under 314px in width, but as disclaimed above this website has been designed to be functional for all screen sizes down to 320px in width.
+   - Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very close together for really small screens.
+   - Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide. The tapping issue only seems to occur when the menu items are pushed one under the other for screens under 314px in width, but as disclaimed above this website has been designed to be functional for all screen sizes down to 320px in width.
 
 ### Post Development Testing
 
@@ -276,7 +276,7 @@ You can find the live site via the following URL - [WALKIES - Knocklyon](https:/
 
 ### Technical reference
 
-First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for his all his help and good advice throughout this project Portfolio.
+First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for all his help and good advice throughout this project Portfolio.
 
 The project was influenced by the Code Institute's code along project called "Love Running" where I took inspiration for the placement of the logo, navigation bar and hero image with a zoom effect.
 

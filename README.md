@@ -168,23 +168,23 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 ### Manual Testing
 - I used Edge, Chrome and Firefox desktop browsers to ensure cross-compatibility. 
-- I used devtools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
+- I used DevTools to simulate different smaller screen sizes down to 320px in width as well as testing on several personal devices including Android tablets and mobile phones.
 - I asked my mentor and friends and relatives to test the website on Opera and iOS and no errors were reported.
-- I asked my network to test the functionality of the website on their devices, to check every image and click on every link, to try out the navigation bar redirects, to complete the register form, and to also check for typos, etc.
+- I asked my network to test the functionality of the website on their devices, to check every image and click on every link, to try out the navigation bar redirects, to complete the register form, and to also check for typos, etc. No errors were reported.
 
 ### Issues and Fixes
 1. Intended Outcome: A balanced Services section with a list of services offered and some relevant photos
    - Issue: To begin with I had a photo gallery of eight photos in this section which was too big and imposing and was taking the attention away from the services list. 
-   - Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section, but the Services list is essential for the target audience so this brings a more balanced viewing / reading of this section. 
+   - Solution: I selected the four most relevant photos and reduced the size and height of the gallery to bring more attention to the actual Services list. The photos may be relevant and have their place in this section, but the Services list is essential for the target audience so this brings a more balanced viewing / reading to this section. 
 2. Intended outcome: A relevant hero image was crucial for the website as the image on the landing page is the first impression of the website which cannot be undone. The hero image has to speak for itself as an image is worth more than a thousand words and by seeing it users get a general idea of what the website is all about.
-   - Issue: I was only able to find images of seniors with dogs which format was not suitable for the wide horizontal hero image format that I wanted to achieve so I settled for a photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of WALKIES - Knocklyon and how it aims to help seniors.
-   - Solution: I kept looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project.
+   - Issue: I was only able to find images of seniors with dogs which format was not suitable for the wide horizontal hero image format that I wanted to achieve so I settled for a placeholder photo of a sausage dog wearing a harness and on the lead. Although the image was stunning and relevant in the way that the dog was being walked and this website is offering dog walking services, it still didn't transmit the purpose of the charity and how it aims to help seniors.
+   - Solution: I kept looking until I found a suitable image which transmits what the website is about. I replaced the hero image a few weeks into the project with an image portraying a senior lady hugging her dog.
 3. Intended outcome: Clear visibility of links across the website.
-    - Issue: Some of the feedback I got from my network is that the direct links to the register form from other sections (e.g. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized (em) and also were underlined on hover but were not visible at first view and could be missed.
-    - Fix: Using the same colour palette of the website I used a different font colour (white and orange) depending on the background colour (white over orange and green and orange over white).
-    - Refix: My mentor advised me to reset the font-colour of every hypertext to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increase the font-size to 105% on hover to give a feeling of movement but without using JavaScript.
+    - Issue: Some of the feedback I got from my network is that the direct links to the register form from other sections (e.g. from the Newsletter section) were not clearly visible as neither was the link to the GoFundMe page from the Donate section. The links were emphasized and were underlined on hover but were not visible at first sight and could be missed.
+    - Fix: Using the same colour palette of the website I used a different font colour (white and orange) depending on the background colour (e.g. white over orange and orange over white).
+    - Refix: My mentor advised me to reset the font-colour of every hypertext to the original dark grey after checking with an accessibility tool, as accessibility scored low and the target audience is prone to have eyesight issues. I underlined every hypertext instead to make them stand out from the rest of the text and I also increased the font-size to 105% on hover to give a feeling of movement but without using JavaScript.
 4. Intended outcome: Centre the About us section image in its div
-    - Issue: The div containing the image floats right and the image itself was not centred in the div. The align-items and text-align attributes were not achieving the desired outcome.
+    - Issue: The div containing the image floats right and the image itself was not centred in the div. The text-align, align-items and text-align attributes were not achieving the desired outcome.
     - Fix: I found the answer in the "Love Running" project provided by the Code Institute and achieved the desired result by setting the margin to 0 auto.
 5. Intended outcome: Website elements optimised scaling depending on browser's settings.
     - Issue: Some of the feedback I received from my mentor was to avoid the use of pixels as a unit as much as possible as rem allows for optimised scalability depending on a user's browser settings.
@@ -194,10 +194,10 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
     - Fix: I researched how to include all of the divs inside the section. The three divs were inside the section tags and the height of the section was set to auto, but I found out that because all of the divs had floating elements I had to include a last div within the section as a clearing element before I ended the section and style it in CSS (clear: both). I found the answer in the Stackoverflow website as credited below. After doing this the height of the section was highlighted as it was intended in the DevTools and the footer was no longer overlapping. I used this technique again in the About us and Tailored services sections by creating a class id="clear".
 7. Intended outcome: Hide one of the silhouette icons which are part of the Our Services header in screens 500px and under.
     - Issue: When using DevTools to test for small screens I realised that the black silhouette icon to the right of the Our Services header was pushed under the header. 
-    - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below.
+    - Fix: I researched how to hide an image in responsive design using CSS (display: none). I found the answer in the sitewizard website as credited below. I used the same technique to hide the subtitle of the Hero image cover text box for smaller screens of 500px and under. This way on small screens the only cover text displaying is "HAPPY DOGS, HAPPY OWNERS".
 8. Intended outcome: Achieve high Performance score in Lighthouse for all screen sizes.
-    - Issue: When first testing in Lighthouse my performance score was over 90 for desktop but went down considerably when testing for mobile sizes.
-    - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com
+    - Issue: When first testing in Lighthouse my performance scores were all over 90 for desktop but went down considerably when testing for mobile sizes.
+    - Fix: Resize images using the simpleimageresizer.com website and then compress them further with TinyPNG.com. (The Register page performance score for mobile is the only score now falling under 90. After compressing the images extensively I decided to settle for an 89 score for mobile as seen in the screenshot below. The performance of the same Register page on Desktop is 99 as also shown below.)
 9. Intended outcome: Achieve higher Accessibility score in Lighthouse for the Register page.
     - Issue: As realised testing with Lighthouse, the "volunteer" id was not unique as I had used it twice in register.html.
     - Fix: I gave the label in the register form a new "volunteer-reg" id.
@@ -206,29 +206,27 @@ The WALKIES - Knocklyon website was designed for good responsiveness on all scre
 
 1. Intended outcome: Have a high Best Practices score in all three pages.
    - Issue: When using Lighthouse I realised that the index.html page had a score of 92 in Best Practices while my other two pages had a score of 100. The issue type in Lighthouse was a "SameSite cookie" issue. I narrowed down the issue to a YouTube iframe as the Best Practices score went up to 100 if the video section was commented out.
-   - Fix: I sought advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non-issue" after all.
+   - Fix: I sought advice in the Project Portfolio1 Slack channel and one of the mentors mentioned that this was a server side issue so out of my control. The 92 score is acceptable so I have decided it to keep the iframe as it brings an interesting feature to the website. Also if I test the index.html page with Lighthouse via an incognito browser window, then I get 100 in Best Practices as there is no interference with browser extensions so this issue may be a "non-issue" after all.
 
 2. Intended outcome: Shorter and more efficient CSS code.
-- Issue: My CSS code has no errors and has passed validation. However, after learning a lot of CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id (e.g. most h2 headers have the same font colour and size).
-- Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a more simple and shorter CSS code.
+- Issue: My CSS code has no errors and has passed validation. However, after learning many CSS best practices during the course of this project, I now realise that I could have made a better use of classes instead of targeting some recurrent elements by id.
+- Fix: If I had to start this portfolio project from scratch, I would reorganise some ids into classes in order to have a simplified CSS code (e.g. most h2 headers have the same font colour and size so a header class could have been used).
 
 3. Intended outcome: No tapping issues on mobile devices.
-- Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very closed together for really small screens.
-- Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide.
+- Issue: Lighthouse flagged a potential tapping issue as the menu tabs would be very close together for really small screens.
+- Fix: After testing on multiple mobile devices and asking my network to do the same, no issues were reported and there doesn't seem to be any tapping issues. Menu bar tapping is perfectly functional and menu bar items stay aligned on all screen sizes down to 314px wide. The tapping issue only seems to occur when the menu items are pushed one under the other for screens under 314px in width, but as disclaimed above this website has been designed to be functional for all screen sizes down to 320px in width.
 
 ### Post Development Testing
 
 - HTML Validator: https://validator.w3.org/nu/
   - Issue found: Stray end of div in register.html
     - The solution was simply to locate and remove the stray end of div
-
   - Issue found: The services gallery section needed a header (yellow warning)
     - The solution I used was turning the services gallery and the services list into two divs instead of sections and I then placing them inside the same section called Services which has a h2 header.
-
-
+  - All three pages are now fully validated and have no HTML errors.
+  
 - CSS Validator: https://jigsaw.w3.org/css-validator/
     - The CSS code was validated as CSS Level3 +SVG with no errors found.
-
     <p>
         <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -268,6 +266,23 @@ You can find the live site via the following URL - [WALKIES - Knocklyon](https:/
 
 ## Credits
 
+### Technical reference
+
+First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for his all his help and good advice throughout this project Portfolio.
+
+The project was influenced by the Code Institute's code along project called "Love Running" where I took inspiration for the placement of the logo, navigation bar and hero image with a zoom effect.
+
+For the rest of the code I relied mainly upon W3schools and used stack overflow and thesitewizard to fix two of the bugs as already mentioned in the Issues and fixes section.
+
+- [CSS Section Automatically Adjust Height?](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height) - Stackoverflow - Answer provided by D.J. MacFarlane
+
+- [How to Hide Images on a Website When It is Viewed on a Mobile Phone](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml) - Thesitewizard.com
+
+Last but not least I would like to thank:
+- [Simen Daehlin](https://github.com/Eventyret) for being so helpful and answering my questions promptly on the Project portfolio1 Code Institute's Slack channel.
+- [David Bowers](https://github.com/dnlbowers) for taking inspiration on the Readme file he prepared in the context of his [Modern Budhism](https://github.com/dnlbowers/modern-buddhism/blob/main/README.md) project Portfolio.
+- [Dilner1](https://github.com/dilner1) for taking inspiration on the way sections are divided in his [Studio6](https://dilner1.github.io/Studio-Six/) project Portfolio.
+
 ### Content inspiration
 
 All content in the WALKIES - Knocklyon website was written by myself. I looked at the websites below for ideas and inspiration.
@@ -284,30 +299,13 @@ All content in the WALKIES - Knocklyon website was written by myself. I looked a
 
 - [The Cinnamon Trust](https://cinnamon.org.uk/home/)
 
-### Technical reference
-
-First of all, I would like to thank my Mentor from Code Institute [Richard Wells](https://github.com/D0nni387) for his all his help and good advice throughout this project Portfolio.
-
-The project was influenced by the Code Institute's code along project called Love running where I took inspiration for the placement of the logo, navigation bar and hero image with a zoom effect.
-
-For the rest of the code I relied mainly upon W3schools and used stack overflow and thesitewizard to fix two of the bugs as already mentioned in the Issues and fixes section.
-
-- CSS Section Automatically Adjust Height? - [Stackoverflow - Answer provided by D.J. MacFarlane](https://stackoverflow.com/questions/10196206/css-section-automatically-adjust-height)
-
-- How to Hide Images on a Website When It is Viewed on a Mobile Phone - [Thesitewizard.com](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
-
-Last but not least I would like to thank:
-- [Simen Daehlin](https://github.com/Eventyret) for always answering my questions promptly on the Project portfolio1 Code Institute's slack channel.
-- [David Bowers](https://github.com/dnlbowers) for taking inspiration on the Readme file he prepared in the context of his [Modern Budhism](https://github.com/dnlbowers/modern-buddhism/blob/main/README.md) project Portfolio.
-- [Dilner1](https://github.com/dilner1) for taking inspiration on the way sections are divided in his [Studio6](https://github.com/dilner1/Studio-Six) project Portfolio.
-
 ### Media
 
-Hero image in landing page - [iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
+Hero image in landing page (licence acquired)- [iStockPhoto - Photo by SeventyFour](https://www.istockphoto.com/photo/happy-granny-loving-her-dog-gm950847190-259549163)
 
 About us image - [Pxhere.com - by unknown camera](https://pxhere.com/en/photo/914261)
 
-Senior1 (Benefits) - [Adove Stock - by Budimir Jevtic](https://stock.adobe.com/ie/images/old-man-and-cute-dog-kissing/158731172)
+Senior1 (Benefits) (licence acquired) - [Adove Stock - by Budimir Jevtic](https://stock.adobe.com/ie/images/old-man-and-cute-dog-kissing/158731172)
 
 Senior2 (Benefits) - [Maxpixel.net - by Canon EOS 600d](https://www.maxpixel.net/Hug-Woman-Cute-Dog-Old-Love-Young-Vizsla-Puppy-1835731)
 
@@ -336,4 +334,14 @@ Silhouette of couple walking their dog [Iconspng.com](https://www.iconspng.com/i
 Silhouette of woman walking dog [Pngkey.com](https://www.pngkey.com/detail/u2q8w7t4t4a9o0i1_silhouette-walking-dog-women-people-full-people-silhouette/)
 
 YouTube video on Home page [10 Benefits of Seniors owning a pet - by Nurse next door](https://www.youtube.com/watch?v=-SSb4-G_SGg)
+
+### Oher tools and resources
+
+- Icons in the logo, footer and other sections across the website were taken from [Font Awesome](https://fontawesome.com/)
+- All fonts were imported from [Google fonts](https://fonts.google.com/)
+- Images were resized using [Simple Image Resizer](http://www.simpleimageresizer.com/upload)
+- Images were compressed using [Tiny png](https://tinypng.com/)
+- Mockups for MAC were taken using [Techsini](http://techsini.com/multi-mockup/)
+- Mockups for PC/Android were taken using [Am I Responsive](http://ami.responsivedesign.is/)
+- Website was tested with [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
 
